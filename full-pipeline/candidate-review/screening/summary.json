@@ -1,0 +1,50 @@
+{
+  "config": {
+    "score_threshold": 0.5,
+    "higher_score_threshold": 0.6,
+    "minimum_voxels": 30,
+    "minimum_slices": 2,
+    "minimum_interior_fraction": 0.5,
+    "minimum_score_retention": 0.5,
+    "minimum_absolute_mean_difference": 0.1,
+    "minimum_registration_correlation": 0.7,
+    "shift_minimum_contrast_retention": 0.5,
+    "shift_minimum_coverage": 0.9,
+    "artifact_boundary_fraction": 0.8,
+    "boundary_width_inplane_voxels": 2,
+    "shifts_processing_voxels": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ]
+    ]
+  },
+  "counts": {
+    "uncertain": 161,
+    "likely processing artifact": 25,
+    "possible change": 24
+  },
+  "total_candidates": 210,
+  "shortlist_count": 65,
+  "confirmed_injuries": "not established",
+  "reviewer_fields_preserved": true,
+  "rule_validation": "not validated; declared engineering screening heuristics",
+  "perturbation_scope": "normalized subtraction only; no model or registration rerun",
+  "shortlist_selection": "up to two largest components per label per animal; not severity ranking"
+}

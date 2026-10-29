@@ -1,0 +1,28 @@
+{
+ "id": "fiskum-BCF94",
+ "session": "Ferret/Fiskum/Ferret_2024/Fiskum_011724_Ferret_1_1_20240117_085743",
+ "cohort": "fiskum_baseline",
+ "group": "baseline",
+ "time": null,
+ "animal": "BCF94",
+ "t2_source": "Ferret/Fiskum/Ferret_2024/Fiskum_011724_Ferret_1_1_20240117_085743/7/pdata/1",
+ "t2_sha256": "d0b8e63e34d10aa38e14fd2f386f0d798a20beb5ab8ee25e705d3e688f16c4ee",
+ "mask_volume_mm3": 6108.021674526668,
+ "template_correlation": 0.5656200718129394,
+ "t_template": 14.897511005401611,
+ "dti_source": "Ferret/Fiskum/Ferret_2024/Fiskum_011724_Ferret_1_1_20240117_085743/8",
+ "sdc": {
+  "fwd_rev_corr_before": 0.856994442268762,
+  "fwd_rev_corr_after_full_warp": 0.9055514338438179,
+  "max_shift_mm": 4.92233943939209
+ },
+ "t_sdc": 26.184877157211304,
+ "t_motion": 66.92873191833496,
+ "motion": {
+  "max_translation_mm": 0.18362342803005102,
+  "median_translation_mm": 0.05022655827851435,
+  "fallbacks_to_identity": 0
+ },
+ "seconds": 67.86904501914978,
+ "status": "ok"
+}

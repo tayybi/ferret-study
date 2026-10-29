@@ -1,0 +1,185 @@
+{
+  "run": {
+    "args": {
+      "device": "mps",
+      "steps": 1000,
+      "batch_size": 4,
+      "inner_steps": 2,
+      "inner_lr": 0.1,
+      "lr": 0.001,
+      "eval_interval": 100,
+      "seed": 43,
+      "run": "atlas-development-seed43",
+      "data_dir": "/Users/tayyab/Mousedata/ferret-study/full-pipeline/data",
+      "mask_cache": "/Users/tayyab/Mousedata/ferret-study/full-pipeline/data/brain_masks.npz"
+    },
+    "device": "mps",
+    "torch": "2.3.0",
+    "split": {
+      "train": [
+        "BCF100",
+        "BCF102",
+        "BCF103",
+        "BCF82",
+        "BCF83",
+        "BCF89",
+        "BCF90",
+        "BCF91",
+        "BCF92",
+        "BCF94",
+        "BCF98",
+        "BCF99"
+      ],
+      "validation": [
+        "BCF80",
+        "BCF81",
+        "BCF93",
+        "BCF95"
+      ],
+      "test": [
+        "BCF101",
+        "BCF88",
+        "BCF96",
+        "BCF97"
+      ]
+    },
+    "parameters": 47946,
+    "scope": "Synthetic changes ONLY; no real injury claims",
+    "manifest_sha256": "7fe94fa6dc473d979786358f114ec61723654d7279e794029e7386db146ddfc0",
+    "region_type": "Provisional atlas mask, NOT expert ground truth",
+    "evaluation_status": "Development holdouts; not a confirmatory injury test",
+    "elapsed_seconds": 81.56066279200604,
+    "mps_allocated_bytes": 0
+  },
+  "synthetic_test_results": {
+    "erm_no_adaptation": {
+      "mean_across_animals": {
+        "loss": 0.1340780071914196,
+        "positive_slice_dice_at_0_5": 0.9393852754749425,
+        "synthetic_pixel_auroc": 0.9993939787639337,
+        "synthetic_pixel_average_precision": 0.9928696035016973,
+        "negative_foreground_fraction_flagged_at_0_5": 0.0
+      },
+      "per_animal": [
+        {
+          "animal": "BCF101",
+          "loss": 0.09568367898464203,
+          "positive_slice_dice_at_0_5": 0.9483796860896152,
+          "synthetic_pixel_auroc": 0.9996481334169914,
+          "synthetic_pixel_average_precision": 0.9947601377658885,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0
+        },
+        {
+          "animal": "BCF88",
+          "loss": 0.14695169031620026,
+          "positive_slice_dice_at_0_5": 0.9233457321765509,
+          "synthetic_pixel_auroc": 0.9991815856777494,
+          "synthetic_pixel_average_precision": 0.9892895239796916,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0
+        },
+        {
+          "animal": "BCF96",
+          "loss": 0.1128322184085846,
+          "positive_slice_dice_at_0_5": 0.9537446932234026,
+          "synthetic_pixel_auroc": 0.9994526466572141,
+          "synthetic_pixel_average_precision": 0.9952312006061862,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0
+        },
+        {
+          "animal": "BCF97",
+          "loss": 0.18084444105625153,
+          "positive_slice_dice_at_0_5": 0.9320709904102011,
+          "synthetic_pixel_auroc": 0.9992935493037794,
+          "synthetic_pixel_average_precision": 0.9921975516550229,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0
+        }
+      ]
+    },
+    "erm_baseline_adaptation": {
+      "mean_across_animals": {
+        "loss": 0.13407811895012856,
+        "positive_slice_dice_at_0_5": 0.9393852754749425,
+        "synthetic_pixel_auroc": 0.9993939787639337,
+        "synthetic_pixel_average_precision": 0.9928696035016973,
+        "negative_foreground_fraction_flagged_at_0_5": 0.0
+      },
+      "per_animal": [
+        {
+          "animal": "BCF101",
+          "loss": 0.09568361937999725,
+          "positive_slice_dice_at_0_5": 0.9483796860896152,
+          "synthetic_pixel_auroc": 0.9996481334169915,
+          "synthetic_pixel_average_precision": 0.9947601377658882,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0
+        },
+        {
+          "animal": "BCF88",
+          "loss": 0.14695164561271667,
+          "positive_slice_dice_at_0_5": 0.9233457321765509,
+          "synthetic_pixel_auroc": 0.9991815856777493,
+          "synthetic_pixel_average_precision": 0.9892895239796916,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0
+        },
+        {
+          "animal": "BCF96",
+          "loss": 0.11283223330974579,
+          "positive_slice_dice_at_0_5": 0.9537446932234026,
+          "synthetic_pixel_auroc": 0.9994526466572141,
+          "synthetic_pixel_average_precision": 0.9952312006061862,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0
+        },
+        {
+          "animal": "BCF97",
+          "loss": 0.1808449774980545,
+          "positive_slice_dice_at_0_5": 0.9320709904102011,
+          "synthetic_pixel_auroc": 0.9992935493037796,
+          "synthetic_pixel_average_precision": 0.9921975516550229,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0
+        }
+      ]
+    },
+    "fomaml_baseline_adaptation": {
+      "mean_across_animals": {
+        "loss": 0.1363624855875969,
+        "positive_slice_dice_at_0_5": 0.9423726016421878,
+        "synthetic_pixel_auroc": 0.9993877126189866,
+        "synthetic_pixel_average_precision": 0.9929060360068691,
+        "negative_foreground_fraction_flagged_at_0_5": 0.00037979491074819596
+      },
+      "per_animal": [
+        {
+          "animal": "BCF101",
+          "loss": 0.10024069249629974,
+          "positive_slice_dice_at_0_5": 0.9521096749151188,
+          "synthetic_pixel_auroc": 0.9996616543652865,
+          "synthetic_pixel_average_precision": 0.9950050871631112,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0
+        },
+        {
+          "animal": "BCF88",
+          "loss": 0.14397956430912018,
+          "positive_slice_dice_at_0_5": 0.930841889176749,
+          "synthetic_pixel_auroc": 0.9992668868789751,
+          "synthetic_pixel_average_precision": 0.990343506089616,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0
+        },
+        {
+          "animal": "BCF96",
+          "loss": 0.11230461299419403,
+          "positive_slice_dice_at_0_5": 0.9580237563421331,
+          "synthetic_pixel_auroc": 0.9994878960461208,
+          "synthetic_pixel_average_precision": 0.9955045194779122,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0
+        },
+        {
+          "animal": "BCF97",
+          "loss": 0.18892507255077362,
+          "positive_slice_dice_at_0_5": 0.9285150861347502,
+          "synthetic_pixel_auroc": 0.9991344131855641,
+          "synthetic_pixel_average_precision": 0.9907710312968372,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0015191796429927839
+        }
+      ]
+    }
+  }
+}

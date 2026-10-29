@@ -1,0 +1,129 @@
+<div id="ferret-results-explained">
+  <style>
+    #ferret-results-explained { color:var(--foreground); }
+    #ferret-results-explained .animal-group { margin:12px 0; }
+    #ferret-results-explained .animal-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(90px,1fr)); gap:6px; margin-top:6px; }
+    #ferret-results-explained .frames { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin:14px 0; }
+    #ferret-results-explained figure { margin:0; min-width:0; }
+    #ferret-results-explained .frames img { width:100%; aspect-ratio:1; object-fit:contain; }
+    #ferret-results-explained figcaption { margin:6px 0; }
+    #ferret-results-explained .single { grid-template-columns:minmax(0,230px); }
+    #ferret-results-explained .selected { margin:12px 0; overflow-wrap:anywhere; }
+    #ferret-results-explained .metric-row { display:grid; grid-template-columns:minmax(180px,1fr) 2fr 65px; gap:12px; align-items:center; margin:12px 0; }
+    #ferret-results-explained .metric-row output { text-align:right; }
+    #ferret-results-explained .source { overflow-wrap:anywhere; }
+    #ferret-results-explained [hidden] { display:none !important; }
+    @media(max-width:500px) {
+      #ferret-results-explained .frames { grid-template-columns:1fr; }
+      #ferret-results-explained .frames img { max-height:230px; }
+      #ferret-results-explained .metric-row { grid-template-columns:1fr 65px; }
+      #ferret-results-explained .metric-row .progress { grid-column:1; grid-row:2; }
+      #ferret-results-explained .metric-row output { grid-column:2; grid-row:1; }
+    }
+  </style>
+  <h2>What happened to the 20 baseline scans?</h2>
+  <div>15 paired change maps · 4 pairs withheld · 1 unmatched baseline</div>
+  <div class="animal-group">
+    <div>Change maps available — 15 animals</div>
+    <div id="available-animals" class="animal-grid" role="group" aria-label="Animals with exploratory change maps"></div>
+  </div>
+  <div class="animal-group">
+    <div>Alignment below cutoff — 4 animals, all six-month follow-ups</div>
+    <div id="withheld-animals" class="animal-grid" role="group" aria-label="Animals with maps withheld for alignment"></div>
+  </div>
+  <div class="animal-group">
+    <div>No unambiguous follow-up — 1 animal</div>
+    <div id="unmatched-animals" class="animal-grid" role="group" aria-label="Animal without a confirmed follow-up"></div>
+  </div>
+  <div id="selected-animal" class="selected" aria-live="polite"></div>
+  <div id="real-frames" class="frames">
+    <figure><img id="real-baseline" alt="Selected ferret baseline MRI"><figcaption>1. Baseline MRI</figcaption></figure>
+    <figure id="followup-figure"><img id="real-followup" alt="Registered follow-up MRI"><figcaption>2. Aligned follow-up MRI</figcaption></figure>
+    <figure id="overlay-figure"><img id="real-overlay" alt="Unverified model change-score overlay"><figcaption>3. Model highlights</figcaption></figure>
+  </div>
+  <div id="slice-control">
+    <label class="form-label" for="real-slice">Stored slice <output id="real-slice-value"></output> · three sampled locations</label>
+    <input id="real-slice" class="form-range" type="range" min="0" max="2" step="1" value="1">
+  </div>
+  <div id="result-status" aria-live="polite"></div>
+  <div id="real-legend" class="text-small text-muted">Brighter overlay = higher change score, not injury probability · expert injury outline unavailable · cropped scanner views; independently normalized intensity</div>
+  <details><summary class="text-small">Selected source</summary><div id="selected-source" class="source text-small"></div></details>
+
+  <h3>What we can verify: finding changes we inserted</h3>
+  <div class="text-small">BCF101 · fixed seed-42 development example · simulated abnormality</div>
+  <div class="frames">
+    <figure><img id="synthetic-image" alt="MRI with an artificially inserted intensity abnormality"><figcaption>Practice follow-up image</figcaption></figure>
+    <figure><img id="synthetic-truth" alt="Known binary mask of the inserted abnormality"><figcaption>Known added region</figcaption></figure>
+    <figure><img id="synthetic-prediction" alt="Model highlights for the simulated abnormality"><figcaption>Model highlights</figcaption></figure>
+  </div>
+
+  <h3>Measured performance: simulated abnormalities only</h3>
+  <div class="text-small">Dice overlap: 0 = no overlap; 1 = exact overlap · 4 development animals · mean across 3 seeds</div>
+  <div class="metric-row"><span>Ordinary training</span><div class="progress" role="progressbar" aria-label="Ordinary training synthetic Dice" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.9397"><div class="progress-bar" style="width:93.96998%"></div></div><output class="tabular-nums">0.940</output></div>
+  <div class="metric-row"><span>Ordinary + adaptation</span><div class="progress" role="progressbar" aria-label="Ordinary training with adaptation synthetic Dice" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.9397"><div class="progress-bar" style="width:93.96998%"></div></div><output class="tabular-nums">0.940</output></div>
+  <div class="metric-row"><span>Meta-learning + adaptation</span><div class="progress" role="progressbar" aria-label="Meta-learning with adaptation synthetic Dice" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0.9439"><div class="progress-bar" style="width:94.38881%"></div></div><output class="tabular-nums">0.944</output></div>
+  <div class="text-small">Difference: +0.004 Dice · practical advantage unproven · real injury accuracy unknown</div>
+
+  <h3>Has the research question been answered?</h3>
+  <div class="table-responsive"><table class="table table-sm">
+    <thead><tr><th>Question</th><th>Current evidence</th></tr></thead>
+    <tbody>
+      <tr><td>Can the model find simulated changes?</td><td>Yes, on this small development benchmark</td></tr>
+      <tr><td>Can the pipeline generate real follow-up maps?</td><td>Yes, for 15 pairs passing automatic alignment checks</td></tr>
+      <tr><td>Do those highlights identify real injuries?</td><td>Unknown — no independent expert injury reference</td></tr>
+      <tr><td>Does personalization reduce real false alarms?</td><td>Unknown — no verified healthy follow-up comparison</td></tr>
+      <tr><td>Has meta-learning established a useful advantage?</td><td>No — small synthetic difference; ordinary adaptation unchanged</td></tr>
+    </tbody>
+  </table></div>
+  <script id="ferret-results-data" type="application/json">__ASSETS__</script>
+  <script>
+    (() => {
+      const root = document.getElementById('ferret-results-explained');
+      const data = JSON.parse(root.querySelector('#ferret-results-data').textContent);
+      const get = id => root.querySelector('#'+id);
+      let selected = data.animals.find(row => row.animal === 'BCF101');
+      const slider = get('real-slice');
+      function draw() {
+        const row = selected;
+        const available = row.outcome === 'map';
+        get('selected-animal').textContent = row.animal+' · '+row.partition+' · '+row.followup;
+        get('result-status').textContent = row.detail;
+        get('selected-source').textContent = row.source;
+        get('followup-figure').hidden = !available;
+        get('overlay-figure').hidden = !available;
+        get('slice-control').hidden = !available;
+        get('real-legend').hidden = !available;
+        get('real-frames').classList.toggle('single',!available);
+        if (available) {
+          const frame = row.frames[Number(slider.value)];
+          get('real-baseline').src = frame.baseline;
+          get('real-followup').src = frame.followup;
+          get('real-overlay').src = frame.overlay;
+          get('real-slice-value').textContent = String(frame.slice);
+          slider.setAttribute('aria-valuetext','Stored slice '+frame.slice);
+        } else {
+          get('real-baseline').src = row.baseline;
+          get('real-followup').removeAttribute('src');
+          get('real-overlay').removeAttribute('src');
+        }
+        root.querySelectorAll('button[data-animal]').forEach(button => button.setAttribute('aria-pressed',String(button.dataset.animal===row.animal)));
+      }
+      data.animals.forEach(row => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'btn viz-tile';
+        button.textContent = row.animal;
+        button.dataset.animal = row.animal;
+        button.setAttribute('aria-label',row.animal+', '+row.partition+', '+row.followup+', '+row.detail);
+        button.addEventListener('click',() => { selected=row; slider.value='1'; draw(); });
+        const group = row.outcome==='map' ? 'available-animals' : (row.outcome==='withheld' ? 'withheld-animals' : 'unmatched-animals');
+        get(group).appendChild(button);
+      });
+      get('synthetic-image').src = data.synthetic.followup;
+      get('synthetic-truth').src = data.synthetic.truth;
+      get('synthetic-prediction').src = data.synthetic.prediction;
+      slider.addEventListener('input',draw);
+      draw();
+    })();
+  </script>
+</div>

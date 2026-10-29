@@ -1,0 +1,28 @@
+{
+ "id": "3d-Sham-705291",
+ "session": "Ferret/MRI groups/3d/Sham/705291",
+ "cohort": "blast",
+ "group": "Sham",
+ "time": "3d",
+ "animal": "705291",
+ "t2_source": "Ferret/MRI groups/3d/Sham/705291/5/pdata/1",
+ "t2_sha256": "383535d919ac2d93ae337e40c02a74a6583e612d480ad0a676b15dd4026e6fda",
+ "mask_volume_mm3": 5701.034433369358,
+ "template_correlation": 0.5151147093950602,
+ "t_template": 16.60796809196472,
+ "dti_source": "Ferret/MRI groups/3d/Sham/705291/6",
+ "sdc": {
+  "fwd_rev_corr_before": 0.8431228815817658,
+  "fwd_rev_corr_after_full_warp": 0.9052505774595755,
+  "max_shift_mm": 6.237396717071533
+ },
+ "t_sdc": 27.706483840942383,
+ "t_motion": 63.604816198349,
+ "motion": {
+  "max_translation_mm": 0.17884503769516816,
+  "median_translation_mm": 0.05422836082674683,
+  "fallbacks_to_identity": 0
+ },
+ "seconds": 64.45518684387207,
+ "status": "ok"
+}

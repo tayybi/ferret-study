@@ -1,0 +1,39 @@
+{
+ "id": "3d-20psi-705541",
+ "session": "Ferret/MRI groups/3d/20psi/705541",
+ "cohort": "blast",
+ "group": "20psi",
+ "time": "3d",
+ "animal": "705541",
+ "t2_source": "Ferret/MRI groups/3d/20psi/705541/6/pdata/1",
+ "t2_sha256": "28f4d49c1816ada397ccd925d88c294117642f65a143ddf54a069afd1e78c7e7",
+ "mask_volume_mm3": 5824.023121596282,
+ "template_correlation": 0.5414091307480843,
+ "t_template": 37.85813283920288,
+ "dti_source": "Ferret/MRI groups/3d/20psi/705541/7",
+ "sdc": {
+  "fwd_rev_corr_before": 0.8417427741335891,
+  "fwd_rev_corr_after_full_warp": 0.8985416354237904,
+  "max_shift_mm": 5.923348426818848
+ },
+ "t_sdc": 51.91547966003418,
+ "t_motion": 89.02527475357056,
+ "motion": {
+  "max_translation_mm": 0.1703079514860896,
+  "median_translation_mm": 0.05530059739428247,
+  "fallbacks_to_identity": 0
+ },
+ "mrs": null,
+ "mrs_voxel_qc": {
+  "as_stored": {
+   "native_voxels": 220.0,
+   "fraction_in_brain": 0.0
+  },
+  "flip_xy": {
+   "native_voxels": 220.0,
+   "fraction_in_brain": 0.9954545497894287
+  }
+ },
+ "seconds": 90.46891379356384,
+ "status": "ok"
+}

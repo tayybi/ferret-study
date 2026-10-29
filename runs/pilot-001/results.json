@@ -1,0 +1,181 @@
+{
+  "run": {
+    "args": {
+      "device": "mps",
+      "steps": 200,
+      "batch_size": 4,
+      "inner_steps": 2,
+      "inner_lr": 0.1,
+      "lr": 0.001,
+      "eval_interval": 25,
+      "seed": 42,
+      "run": "pilot-001"
+    },
+    "device": "mps",
+    "torch": "2.3.0",
+    "split": {
+      "train": [
+        "BCF100",
+        "BCF102",
+        "BCF103",
+        "BCF82",
+        "BCF83",
+        "BCF89",
+        "BCF90",
+        "BCF91",
+        "BCF92",
+        "BCF94",
+        "BCF98",
+        "BCF99"
+      ],
+      "validation": [
+        "BCF80",
+        "BCF81",
+        "BCF93",
+        "BCF95"
+      ],
+      "test": [
+        "BCF101",
+        "BCF88",
+        "BCF96",
+        "BCF97"
+      ]
+    },
+    "parameters": 47946,
+    "scope": "Synthetic changes ONLY; no real injury claims",
+    "manifest_sha256": "8423946a9f6c152cde62c590a6d03feb0182355c03665af3be4100d13c4a743a",
+    "elapsed_seconds": 28.145947583951056,
+    "mps_allocated_bytes": 0
+  },
+  "synthetic_test_results": {
+    "erm_no_adaptation": {
+      "mean_across_animals": {
+        "loss": 0.23602895066142082,
+        "positive_slice_dice_at_0_5": 0.878352646955701,
+        "synthetic_pixel_auroc": 0.9971887115178407,
+        "synthetic_pixel_average_precision": 0.9505299573072166,
+        "negative_foreground_fraction_flagged_at_0_5": 0.0015246830051654785
+      },
+      "per_animal": [
+        {
+          "animal": "BCF101",
+          "loss": 0.24738699197769165,
+          "positive_slice_dice_at_0_5": 0.8767680006633383,
+          "synthetic_pixel_auroc": 0.99562196309683,
+          "synthetic_pixel_average_precision": 0.9332722721915876,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0009930486593843098
+        },
+        {
+          "animal": "BCF88",
+          "loss": 0.21103698015213013,
+          "positive_slice_dice_at_0_5": 0.875807070516566,
+          "synthetic_pixel_auroc": 0.9973717286818846,
+          "synthetic_pixel_average_precision": 0.950362885829132,
+          "negative_foreground_fraction_flagged_at_0_5": 0.003531526903814049
+        },
+        {
+          "animal": "BCF96",
+          "loss": 0.22995765507221222,
+          "positive_slice_dice_at_0_5": 0.8598122487623784,
+          "synthetic_pixel_auroc": 0.9978927550179808,
+          "synthetic_pixel_average_precision": 0.9519780544511532,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0015741564574635548
+        },
+        {
+          "animal": "BCF97",
+          "loss": 0.2557341754436493,
+          "positive_slice_dice_at_0_5": 0.9010232678805212,
+          "synthetic_pixel_auroc": 0.9978683992746675,
+          "synthetic_pixel_average_precision": 0.9665066167569931,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0
+        }
+      ]
+    },
+    "erm_baseline_adaptation": {
+      "mean_across_animals": {
+        "loss": 0.23603159934282303,
+        "positive_slice_dice_at_0_5": 0.8782493537614732,
+        "synthetic_pixel_auroc": 0.9971894513479671,
+        "synthetic_pixel_average_precision": 0.9505323422915501,
+        "negative_foreground_fraction_flagged_at_0_5": 0.0015086306101481418
+      },
+      "per_animal": [
+        {
+          "animal": "BCF101",
+          "loss": 0.24739229679107666,
+          "positive_slice_dice_at_0_5": 0.8767680006633383,
+          "synthetic_pixel_auroc": 0.9956237389708709,
+          "synthetic_pixel_average_precision": 0.9332826684645266,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0009930486593843098
+        },
+        {
+          "animal": "BCF88",
+          "loss": 0.21102574467658997,
+          "positive_slice_dice_at_0_5": 0.8753938977396549,
+          "synthetic_pixel_auroc": 0.9973721128197564,
+          "synthetic_pixel_average_precision": 0.9503595747107441,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0034673173237447026
+        },
+        {
+          "animal": "BCF96",
+          "loss": 0.22992271184921265,
+          "positive_slice_dice_at_0_5": 0.8598122487623784,
+          "synthetic_pixel_auroc": 0.997893580126631,
+          "synthetic_pixel_average_precision": 0.9519830065741985,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0015741564574635548
+        },
+        {
+          "animal": "BCF97",
+          "loss": 0.25578564405441284,
+          "positive_slice_dice_at_0_5": 0.9010232678805212,
+          "synthetic_pixel_auroc": 0.9978683734746103,
+          "synthetic_pixel_average_precision": 0.9665041194167313,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0
+        }
+      ]
+    },
+    "fomaml_baseline_adaptation": {
+      "mean_across_animals": {
+        "loss": 0.21734414622187614,
+        "positive_slice_dice_at_0_5": 0.8860690377905811,
+        "synthetic_pixel_auroc": 0.997933485281092,
+        "synthetic_pixel_average_precision": 0.9591588136085542,
+        "negative_foreground_fraction_flagged_at_0_5": 0.00045102347771726754
+      },
+      "per_animal": [
+        {
+          "animal": "BCF101",
+          "loss": 0.23005670309066772,
+          "positive_slice_dice_at_0_5": 0.8866639509600359,
+          "synthetic_pixel_auroc": 0.9965863049837029,
+          "synthetic_pixel_average_precision": 0.9438807347683514,
+          "negative_foreground_fraction_flagged_at_0_5": 6.6203243958954e-05
+        },
+        {
+          "animal": "BCF88",
+          "loss": 0.19194349646568298,
+          "positive_slice_dice_at_0_5": 0.8806872514568126,
+          "synthetic_pixel_auroc": 0.9981882350691585,
+          "synthetic_pixel_average_precision": 0.9592728949881935,
+          "negative_foreground_fraction_flagged_at_0_5": 0.001669449081803005
+        },
+        {
+          "animal": "BCF96",
+          "loss": 0.21220779418945312,
+          "positive_slice_dice_at_0_5": 0.8680734796547668,
+          "synthetic_pixel_auroc": 0.9984119958916191,
+          "synthetic_pixel_average_precision": 0.9586928678103482,
+          "negative_foreground_fraction_flagged_at_0_5": 6.844158510711108e-05
+        },
+        {
+          "animal": "BCF97",
+          "loss": 0.23516859114170074,
+          "positive_slice_dice_at_0_5": 0.9088514690907091,
+          "synthetic_pixel_auroc": 0.9985474051798877,
+          "synthetic_pixel_average_precision": 0.9747887568673237,
+          "negative_foreground_fraction_flagged_at_0_5": 0.0
+        }
+      ]
+    }
+  }
+}

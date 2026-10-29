@@ -1,0 +1,59 @@
+{
+  "animal_id": "BCF83",
+  "split": "train",
+  "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_050523_Ferret_1_2_20230505_095532/11/pdata/1",
+  "baseline_sha256": "6f6306c7ee4b49b3b36b6e2c1fdb5025fbc5575b237a7414873ec9fa899790cc",
+  "baseline_date": "2023-05-05",
+  "mask_volume_mm3": 6102.845082424228,
+  "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+  "coordinate_status": "Scanner physical geometry preserved; anatomical RAS not verified",
+  "followup": {
+    "label": "BCF83_6month",
+    "date": "2023-11-15",
+    "elapsed_days": 194,
+    "source": "Ferret/Fiskum/Ferret_2023/Fiskum_111523_Ferret_1_2_20231115_100333/5/pdata/1",
+    "sha256": "cc0bde09632453bca453970e83ecf0a1bfee123e3de689e4e816050e6e6fa6e5"
+  },
+  "status": "paired",
+  "registration_qc": "flagged",
+  "registration_correlation_before": 0.23157569489487606,
+  "registration_correlation_after": 0.6467145864793681,
+  "coverage_fraction": 0.9608353564011817,
+  "qc_flags": [
+    "low_structural_correlation"
+  ],
+  "transforms": [
+    "/Users/tayyab/Mousedata/ferret-study/full-pipeline/subjects/BCF83/physical_retry_meansquares_0GenericAffine.mat"
+  ],
+  "first_registration_attempt": {
+    "registration_correlation_before": 0.4688831338779753,
+    "registration_correlation_after": 0.4635713720967122,
+    "coverage_fraction": 0.47790224926145836,
+    "registration_qc": "flagged",
+    "qc_flags": [
+      "low_structural_correlation",
+      "incomplete_followup_coverage"
+    ],
+    "transforms": [
+      "/Users/tayyab/Mousedata/ferret-study/full-pipeline/subjects/BCF83/followup_0GenericAffine.mat"
+    ]
+  },
+  "registration_retry_candidates": [
+    {
+      "metric": "GC",
+      "correlation": 0.3765919506363929,
+      "coverage": 0.9293047471408933
+    },
+    {
+      "metric": "meansquares",
+      "correlation": 0.6467145864793681,
+      "coverage": 0.9608353564011817
+    },
+    {
+      "metric": "mattes",
+      "correlation": 0.492475556096793,
+      "coverage": 0.44169177220743516
+    }
+  ],
+  "registration_metric": "meansquares"
+}

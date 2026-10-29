@@ -1,0 +1,496 @@
+[
+  {
+    "animal_id": "BCF100",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF101",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF102",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF103",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF80",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF81",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF82",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF83",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF88",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF89",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF90",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF91",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF92",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF93",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF95",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF96",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF97",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF98",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  },
+  {
+    "animal_id": "BCF99",
+    "parameters": {
+      "PVM_EchoTime": {
+        "baseline": "16.5",
+        "followup": "16.5"
+      },
+      "EffectiveTE": {
+        "baseline": "33",
+        "followup": "33"
+      },
+      "PVM_RepetitionTime": {
+        "baseline": "3200",
+        "followup": "3200"
+      },
+      "RAREfactor": {
+        "baseline": null,
+        "followup": null
+      },
+      "PVM_NAverages": {
+        "baseline": "1",
+        "followup": "1"
+      }
+    },
+    "differences": []
+  }
+]

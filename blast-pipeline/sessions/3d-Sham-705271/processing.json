@@ -1,0 +1,39 @@
+{
+ "id": "3d-Sham-705271",
+ "session": "Ferret/MRI groups/3d/Sham/705271",
+ "cohort": "blast",
+ "group": "Sham",
+ "time": "3d",
+ "animal": "705271",
+ "t2_source": "Ferret/MRI groups/3d/Sham/705271/5/pdata/1",
+ "t2_sha256": "f3451ad225cd51786c7ebb95c3521c111de5004f816523be15491719e6e96a2b",
+ "mask_volume_mm3": 5766.5450989416095,
+ "template_correlation": 0.6040816854029231,
+ "t_template": 15.707089900970459,
+ "dti_source": "Ferret/MRI groups/3d/Sham/705271/6",
+ "sdc": {
+  "fwd_rev_corr_before": 0.8446288350914237,
+  "fwd_rev_corr_after_full_warp": 0.8921587508914148,
+  "max_shift_mm": 6.425273895263672
+ },
+ "t_sdc": 26.835631847381592,
+ "t_motion": 64.04570817947388,
+ "motion": {
+  "max_translation_mm": 0.12159244429036502,
+  "median_translation_mm": 0.046291303968128764,
+  "fallbacks_to_identity": 0
+ },
+ "mrs": null,
+ "mrs_voxel_qc": {
+  "as_stored": {
+   "native_voxels": 200.0,
+   "fraction_in_brain": 0.0
+  },
+  "flip_xy": {
+   "native_voxels": 200.0,
+   "fraction_in_brain": 1.0
+  }
+ },
+ "seconds": 65.56404685974121,
+ "status": "ok"
+}

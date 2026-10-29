@@ -1,0 +1,200 @@
+{
+ "variant": "main",
+ "config": {
+  "channels": [
+   "T2",
+   "FA",
+   "MD",
+   "AD",
+   "RD",
+   "logJ"
+  ],
+  "fiskum": false
+ },
+ "args": {
+  "variant": "main",
+  "seeds": [
+   0,
+   1,
+   2
+  ],
+  "steps": 3000,
+  "batch": 32,
+  "adapt_steps": 0,
+  "synthetic": true,
+  "device": "mps"
+ },
+ "n_sessions": 72,
+ "fold": {
+  "3d-Sham-450545F": 0,
+  "3d-Sham-697741": 1,
+  "3d-Sham-705271": 2,
+  "3d-Sham-FY249792": 3,
+  "3d-Sham-702191": 0,
+  "3d-Sham-705171": 1,
+  "3d-Sham-701951": 2,
+  "3d-Sham-705291": 3,
+  "3d-Sham-702241": 0,
+  "7d-Sham-709611": 1,
+  "7d-Sham-708861": 2,
+  "7d-Sham-709571": 3,
+  "7d-Sham-719781": 0,
+  "7d-Sham-712691": 1,
+  "7d-Sham-712651": 2,
+  "7d-Sham-707761": 3,
+  "3d-10psi-702011": 0,
+  "3d-10psi-702201": 1,
+  "3d-10psi-450154F": 2,
+  "3d-10psi-FY249794": 3,
+  "3d-10psi-FY249795": 0,
+  "3d-10psi-451371F": 1,
+  "3d-10psi-709581": 2,
+  "3d-10psi-705201": 3,
+  "3d-10psi-701911": 0,
+  "3d-20psi-706801": 0,
+  "3d-20psi-705541": 1,
+  "3d-20psi-699821": 2,
+  "3d-20psi-709541": 3,
+  "3d-20psi-709601": 0,
+  "3d-20psi-461601F.699081.699111": 1,
+  "3d-20psi-699851": 2,
+  "3d-20psi-460467F.699081.699111": 3,
+  "3d-20psi-705281": 0,
+  "7d-10psi-709551": 0,
+  "7d-10psi-707781": 1,
+  "7d-10psi-709621": 2,
+  "7d-10psi-709021": 3,
+  "7d-10psi-714571": 0,
+  "7d-10psi-712441": 1,
+  "7d-10psi-709521": 2,
+  "7d-10psi-711131": 3,
+  "7d-10psi-712431": 0,
+  "7d-20psi-708461": 0,
+  "7d-20psi-708371": 1,
+  "7d-20psi-719791": 2,
+  "7d-20psi-712661": 3,
+  "7d-20psi-710271": 0,
+  "7d-20psi-708441": 1,
+  "7d-20psi-712681": 2,
+  "7d-20psi-708471": 3,
+  "7d-20psi-710161": 0,
+  "fiskum-BCF100": 0,
+  "fiskum-BCF101": 1,
+  "fiskum-BCF102": 2,
+  "fiskum-BCF103": 3,
+  "fiskum-BCF80": 0,
+  "fiskum-BCF81": 1,
+  "fiskum-BCF82": 2,
+  "fiskum-BCF83": 3,
+  "fiskum-BCF88": 0,
+  "fiskum-BCF89": 1,
+  "fiskum-BCF90": 2,
+  "fiskum-BCF91": 3,
+  "fiskum-BCF92": 0,
+  "fiskum-BCF93": 1,
+  "fiskum-BCF94": 2,
+  "fiskum-BCF95": 3,
+  "fiskum-BCF96": 0,
+  "fiskum-BCF97": 1,
+  "fiskum-BCF98": 2,
+  "fiskum-BCF99": 3
+ },
+ "runs": [
+  {
+   "seed": 0,
+   "fold": 0,
+   "train_n": 12,
+   "scored_n": 21,
+   "final_train_loss": 0.2310236692428589,
+   "seconds": 167.15142583847046
+  },
+  {
+   "seed": 0,
+   "fold": 1,
+   "train_n": 12,
+   "scored_n": 17,
+   "final_train_loss": 0.22651407122612,
+   "seconds": 165.896231174469
+  },
+  {
+   "seed": 0,
+   "fold": 2,
+   "train_n": 12,
+   "scored_n": 17,
+   "final_train_loss": 0.21472185850143433,
+   "seconds": 159.7529079914093
+  },
+  {
+   "seed": 0,
+   "fold": 3,
+   "train_n": 12,
+   "scored_n": 17,
+   "final_train_loss": 0.23159171640872955,
+   "seconds": 160.14484405517578
+  },
+  {
+   "seed": 1,
+   "fold": 0,
+   "train_n": 12,
+   "scored_n": 21,
+   "final_train_loss": 0.22820113599300385,
+   "seconds": 166.78413796424866
+  },
+  {
+   "seed": 1,
+   "fold": 1,
+   "train_n": 12,
+   "scored_n": 17,
+   "final_train_loss": 0.2239626795053482,
+   "seconds": 160.03278589248657
+  },
+  {
+   "seed": 1,
+   "fold": 2,
+   "train_n": 12,
+   "scored_n": 17,
+   "final_train_loss": 0.22293773293495178,
+   "seconds": 159.48885202407837
+  },
+  {
+   "seed": 1,
+   "fold": 3,
+   "train_n": 12,
+   "scored_n": 17,
+   "final_train_loss": 0.23607754707336426,
+   "seconds": 158.0513620376587
+  },
+  {
+   "seed": 2,
+   "fold": 0,
+   "train_n": 12,
+   "scored_n": 21,
+   "final_train_loss": 0.21888771653175354,
+   "seconds": 157.60168409347534
+  },
+  {
+   "seed": 2,
+   "fold": 1,
+   "train_n": 12,
+   "scored_n": 17,
+   "final_train_loss": 0.21896310150623322,
+   "seconds": 155.45023393630981
+  },
+  {
+   "seed": 2,
+   "fold": 2,
+   "train_n": 12,
+   "scored_n": 17,
+   "final_train_loss": 0.23328471183776855,
+   "seconds": 155.6218249797821
+  },
+  {
+   "seed": 2,
+   "fold": 3,
+   "train_n": 12,
+   "scored_n": 17,
+   "final_train_loss": 0.24754801392555237,
+   "seconds": 169.90333008766174
+  }
+ ]
+}

@@ -1,0 +1,223 @@
+{
+  "sessions": 112,
+  "source_files_inventoried": 32980,
+  "text_metadata_files_searched": 20594,
+  "selected_scans_crosschecked": 39,
+  "pairs_with_matching_BCF_labels": 19,
+  "crosscheck_failures": [],
+  "generic_subject_ids_reused_for_different_study_labels": {
+    "Fiskum_072523_Ferret": [
+      "BCF86_1month",
+      "BCF87_1month"
+    ],
+    "Fiskum_080123_Ferret": [
+      "BCF64_6month",
+      "BCF65_6month"
+    ],
+    "Fiskum_080223_Ferret": [
+      "BCF66_6month",
+      "BCF67_6month"
+    ],
+    "Fiskum_080723_Ferret": [
+      "BCF88_baseline",
+      "BCF89_baseline"
+    ],
+    "Fiskum_080823_Ferret": [
+      "BCF68_6month",
+      "BCF69_6month"
+    ],
+    "Fiskum_080923_Ferret": [
+      "BCF70_6month",
+      "BCF71_6month"
+    ],
+    "Fiskum_081623_ferret_1": [
+      "BCF74_6month",
+      "BCF75_6month",
+      "BCF72_6month"
+    ],
+    "Fiskum_081723_Ferret": [
+      "BCF73_6month",
+      "BCF90_baseline",
+      "BCF91_baseline"
+    ],
+    "Fiskum_081823_Ferret": [
+      "BCF92_baseline",
+      "BCF93_baseline"
+    ],
+    "Fiskum_091823_Ferret": [
+      "BCF88_1month",
+      "BCF89_1month"
+    ],
+    "Fiskum_092723_Ferret": [
+      "BCF90_1month",
+      "BCF91_1month"
+    ],
+    "Fiskum_100423_Ferret": [
+      "BCF92_1month",
+      "BCF93_1month"
+    ],
+    "Fiskum_110623_Ferret": [
+      "BCF76_6month",
+      "BCF77_6month"
+    ],
+    "Fiskum_111023_ferret": [
+      "BCF78_6month",
+      "BCF79_6month"
+    ],
+    "Fiskum_111323_Ferret": [
+      "BCF80_6month",
+      "BCF81_6month"
+    ],
+    "Fiskum_111523_Ferret": [
+      "BCF82_6month",
+      "BCF83_6month"
+    ],
+    "Fiskum_011724_Ferret": [
+      "BCF94_baseline",
+      "BCF95_baseline"
+    ],
+    "Fiskum_012424_Ferret": [
+      "BCF96_baseline",
+      "BCF97_baseline"
+    ],
+    "Fiskum_013124_Ferret": [
+      "BCF98_baseline",
+      "BCF99_baseline"
+    ],
+    "Fiskum_020724_Ferret": [
+      "BCF100_baseline",
+      "BCF101_baseline"
+    ],
+    "Fiskum_021424_Ferret": [
+      "BCF102_baseline",
+      "BCF103_baseline"
+    ],
+    "Fiskum_030624_Ferret": [
+      "BCF96_1month",
+      "BCF97_1month"
+    ],
+    "Fiskum_031124_Ferret": [
+      "BCF98_1month",
+      "BCF99_1month"
+    ],
+    "Fiskum_032024_Ferret": [
+      "BCF100_1month",
+      "BCF101_1month"
+    ],
+    "Fiskum_032624_Ferret": [
+      "BCF102_1month",
+      "BCF103_1month"
+    ],
+    "Fiskum_050423_Ferret": [
+      "BCF80_baseline",
+      "BCF81_baseline"
+    ],
+    "Fiskum_050523_Ferret": [
+      "BCF82_baseline",
+      "BCF83_baseline"
+    ],
+    "Janowski_121825": [
+      "7d_post_blast_712721",
+      "7d_post_blast_712651"
+    ],
+    "Janowski_030526": [
+      "7d_post_blast_719411",
+      "7d_post_blast_714571"
+    ],
+    "Janowski_071124": [
+      "845600376",
+      "845601530",
+      "845591331"
+    ],
+    "Janowski_022125_6": [
+      "3d_post_blast_702011",
+      "3d_post_blast_701951",
+      "3d_post_blast_702191"
+    ],
+    "Janowski_032125": [
+      "3d_post_blast_702201",
+      "3d_post_blast_705201",
+      "3d_post_blast_702241",
+      "3d_post_blast_705171"
+    ],
+    "Janowski_081425": [
+      "3d_post_blast_709581",
+      "3d_post_blast_126594",
+      "3d_post_blast_709541",
+      "3d_post_blast_709601"
+    ],
+    "Janowski_100724": [
+      "3d post blast_FY249794",
+      "3d post blast_464392F",
+      "3d post blast_FY249792"
+    ],
+    "Janowski_110724": [
+      "3d_post_blast_460467F",
+      "3d_post_blast_461601F"
+    ],
+    "Janowski_012425": [
+      "3d_post_blast_699821",
+      "3d_post_blast_699851",
+      "3d_post_blast_697741"
+    ],
+    "Janowski_040425": [
+      "3d_post_blast_705281",
+      "3d_post_blast_705541",
+      "3d_post_blast_705271",
+      "3d_post_blast_705291"
+    ],
+    "Janowski_100925": [
+      "7d_post_blast_707781",
+      "7d_post_blast_709521"
+    ],
+    "Janowski_121125": [
+      "7d_post_blast_709021",
+      "7d_post_blast_711131"
+    ],
+    "Janowski_090425": [
+      "7d_post_blast_709551",
+      "7d_post_blast_709621",
+      "7d_post_blast_708441",
+      "7d_post_blast_708461"
+    ],
+    "Janowski_112025": [
+      "7d_post_blast_712431",
+      "7d_post_blast_712441"
+    ],
+    "Janowski_11062025": [
+      "708371",
+      "710161"
+    ],
+    "Janowski_092525": [
+      "7d_post_blast_708471",
+      "7d_post_blast_710271"
+    ],
+    "Janowski_012226": [
+      "7d_post_blast_712661",
+      "7d_post_blast_712681"
+    ],
+    "Janowski_031226": [
+      "7d_post_blast_719791",
+      "7d_post_blast_719781"
+    ],
+    "Janowski_10302025": [
+      "707761",
+      "709611"
+    ],
+    "Janowski_111325": [
+      "7d_post_blast_708861",
+      "7d_post_blast_709571"
+    ]
+  },
+  "fiskum_exposure_keyword_hits": [],
+  "BCF_BCR_links_in_MRI_groups": [],
+  "group_folder_counts": {
+    "10psi": 18,
+    "20psi": 18,
+    "Sham": 16
+  },
+  "document_extension_counts": {
+    ".txt": 150
+  },
+  "search_scope": "Original local Ferret/Fiskum and Ferret/MRI groups. Generated reports excluded. Text and metadata search; binary payloads not searched as text."
+}

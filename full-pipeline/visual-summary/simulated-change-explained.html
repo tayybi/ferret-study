@@ -1,0 +1,70 @@
+<div id="ferret-simulation-explainer">
+  <style>
+    #ferret-simulation-explainer { color:var(--foreground); }
+    #ferret-simulation-explainer .comparison { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; margin:18px 0 10px; }
+    #ferret-simulation-explainer .comparison.single { grid-template-columns:minmax(0,330px); justify-content:center; }
+    #ferret-simulation-explainer figure { margin:0; min-width:0; }
+    #ferret-simulation-explainer img { width:100%; aspect-ratio:1; object-fit:contain; }
+    #ferret-simulation-explainer figcaption { margin-top:8px; }
+    #ferret-simulation-explainer .stage { margin-top:16px; }
+    #ferret-simulation-explainer [hidden] { display:none !important; }
+    @media(max-width:450px) {
+      #ferret-simulation-explainer .comparison { grid-template-columns:1fr; gap:16px; }
+      #ferret-simulation-explainer img { max-height:240px; }
+    }
+  </style>
+  <h2>One MRI becomes a practice example</h2>
+  <div id="simulation-source" class="text-small text-muted"></div>
+  <div class="viz-controls" role="group" aria-label="Stages of creating a simulated change">
+    <button class="btn" type="button" data-step="0">1. Original MRI</button>
+    <button class="btn" type="button" data-step="1">2. Scan-like variation</button>
+    <button class="btn" type="button" data-step="2">3. Artificial change</button>
+    <button class="btn" type="button" data-step="3">4. Known answer</button>
+  </div>
+  <div id="simulation-stage" class="stage" aria-live="polite"></div>
+  <div id="simulation-comparison" class="comparison">
+    <figure><img id="simulation-left" alt="Reference stage"><figcaption id="simulation-left-label"></figcaption></figure>
+    <figure id="simulation-right-figure"><img id="simulation-right" alt="Modified stage"><figcaption id="simulation-right-label"></figcaption></figure>
+  </div>
+  <div id="simulation-detail" class="text-small" aria-live="polite"></div>
+  <h3>Training targets</h3>
+  <table class="table table-sm">
+    <thead><tr><th>Practice input</th><th>Desired output</th></tr></thead>
+    <tbody>
+      <tr><td>Noise, brightness variation, small shifts only</td><td>No inserted abnormality: target mask is zero</td></tr>
+      <tr><td>Those variations + artificial local patch</td><td>Locate the inserted patch: generated target mask</td></tr>
+    </tbody>
+  </table>
+  <div class="text-small text-muted">Artificial intensity changes · not observed injuries · biological realism unvalidated · same grayscale window within each comparison</div>
+  <script id="simulation-example-data" type="application/json">{"animal":"BCF102","training_seed":42,"episode":1,"stored_slice":15,"amplitude":-0.260611642367513,"direction":"darker","trace_matches_training_generator":true,"images":{"baseline":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAsCAAAAADtSt+4AAAC9klEQVR4nO2VsY5dNRCGZ8b2OWw2QUCBoOA5KKkSoEyVIjVPkJ4HYYWEkCgCAiFBWAmlRaLnBWhASEgoyt17jj0z/wy6gc3q3l0SkCgzjS17Pv/2L49N9CL+x/jxWZN81eCXdZqP36bTFIn3/g3zvSVxKcdv/vo4pjbi/ecz30UpDW4vxzoVoZH07vOYr7mKTGr6Ov6Yj+pg4qzv7OfIwUmSoKru2td1eJKDij98ls59YfIoVRRvyG/1aFJwrSh08x+YT7glsXuVQhpvlV/aHAipxxY5vfLxyRXMpwBVToqQiS1ew1KrRcytZYa/ev2nDy4xD39mBTcS53LEtL7EYxbPMUscsQfP0e/+nVrPmd9zeOG1lOKFArlEpYhERlh4tKETHTIbNaZREWAMoihhDZxhUg3etpx+yeuBsO4GOABS04SFLZm2wnXj6f2jQ50zK0JpMrmQVwdJFvYQT8BS3FBwwHy4FqCltV7YK4WKRKkkNoRBBWswywHjMQmlMyAljtMyMtK7QJA1B9bKnId7SxDgs9JE5jCmyNFGTbTcFooC8gOde0otLGcJiGWNIOGQjN5MKzwlLOncOPmrUctxtiz+qJM93h0Y67Z3actg9BhDHRG4t6fTWyJ56jHJ4hiWgwpHT/MbrN5sXCuWFHs6J4AOuJFvNzDNboF0jTzbGMJnX7SOEfseqLkQsqGjJcId3oiE8ehYPOu1TRalkz3mjlJSlhqLNPKivQgYBmfbXN8JuzPkUi3cLkVaeDa5MZlTtTIVXbV4ZcqETvHZJYZuc8vSjORoDotKObW+zSrE2TmQX1y610TGXDiSocRrlKg7E9gKJZFRv1i9XjApjIREZtYweGXXKAiCZPi50fvvzoNQUzeHe9eBr1RHYLUxXC2Iv3mayBfMLRESMBWZ08Yp0R3xXZlyMkd+S1fpZKgPCh+heOLrfajuytv6Yue1c8DoOvBEGGMZD3Yjn6f3ZIX5dnn2v3CrnD7t34wp3TMyf7ic+CLoP8Wf5KNOVkDdLfcAAAAASUVORK5CYII=","variation":"data:image/png;base64,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","simulated":"data:image/png;base64,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","mask":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAsCAAAAADtSt+4AAAATUlEQVR4nO2SQQoAIAgEXf//5zqEByFoLRCCnZPIDgpqJoQQvYAJjZwEJ6SwF5SovaAEftzt0UHPHNQd3MxhHWx6bqxU+R1bh6WC4lcmPaUGG5naclMAAAAASUVORK5CYII="},"scope":"Artificial intensity patch; not a real injury or validated injury simulation."}</script>
+  <script>
+    (() => {
+      const root=document.getElementById('ferret-simulation-explainer');
+      const data=JSON.parse(root.querySelector('#simulation-example-data').textContent);
+      const get=id=>root.querySelector('#'+id);
+      const stages=[
+        {left:'baseline',right:null,title:'1. Start with a baseline-labeled MRI',leftLabel:'Original baseline slice',rightLabel:'',detail:'Real MRI pixels; no artificial local patch added.'},
+        {left:'baseline',right:'variation',title:'2. Add scan-like variation',leftLabel:'Original baseline slice',rightLabel:'Small shift + brightness variation + noise',detail:'No artificial local abnormality in this intermediate image.'},
+        {left:'variation',right:'simulated',title:'3. Add a small artificial dark patch',leftLabel:'Scan-like variation only',rightLabel:'Same image + local darkening',detail:'A soft-edged patch is inserted at a generated location inside the provisional mask.'},
+        {left:'simulated',right:'mask',title:'4. Keep the generated answer mask',leftLabel:'Simulated follow-up supplied to the model',rightLabel:'Known target used for training and evaluation',detail:'White = inserted target region; black = background. The mask is not part of the MRI input.'}
+      ];
+      get('simulation-source').textContent=data.animal+' · stored slice '+data.stored_slice+' · training seed '+data.training_seed+', episode '+data.episode;
+      function draw(index) {
+        const stage=stages[index];
+        get('simulation-stage').textContent=stage.title;
+        get('simulation-left').src=data.images[stage.left];
+        get('simulation-left').alt=stage.leftLabel;
+        get('simulation-left-label').textContent=stage.leftLabel;
+        get('simulation-right-figure').hidden=!stage.right;
+        get('simulation-comparison').classList.toggle('single',!stage.right);
+        if(stage.right){get('simulation-right').src=data.images[stage.right];get('simulation-right').alt=stage.rightLabel;}
+        else get('simulation-right').removeAttribute('src');
+        get('simulation-right-label').textContent=stage.rightLabel;
+        get('simulation-detail').textContent=stage.detail;
+        root.querySelectorAll('button[data-step]').forEach(button=>button.setAttribute('aria-pressed',String(Number(button.dataset.step)===index)));
+      }
+      root.querySelectorAll('button[data-step]').forEach(button=>button.addEventListener('click',()=>draw(Number(button.dataset.step))));
+      draw(2);
+    })();
+  </script>
+</div>

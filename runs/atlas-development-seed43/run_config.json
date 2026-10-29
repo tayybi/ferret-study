@@ -1,0 +1,50 @@
+{
+  "args": {
+    "device": "mps",
+    "steps": 1000,
+    "batch_size": 4,
+    "inner_steps": 2,
+    "inner_lr": 0.1,
+    "lr": 0.001,
+    "eval_interval": 100,
+    "seed": 43,
+    "run": "atlas-development-seed43",
+    "data_dir": "/Users/tayyab/Mousedata/ferret-study/full-pipeline/data",
+    "mask_cache": "/Users/tayyab/Mousedata/ferret-study/full-pipeline/data/brain_masks.npz"
+  },
+  "device": "mps",
+  "torch": "2.3.0",
+  "split": {
+    "train": [
+      "BCF100",
+      "BCF102",
+      "BCF103",
+      "BCF82",
+      "BCF83",
+      "BCF89",
+      "BCF90",
+      "BCF91",
+      "BCF92",
+      "BCF94",
+      "BCF98",
+      "BCF99"
+    ],
+    "validation": [
+      "BCF80",
+      "BCF81",
+      "BCF93",
+      "BCF95"
+    ],
+    "test": [
+      "BCF101",
+      "BCF88",
+      "BCF96",
+      "BCF97"
+    ]
+  },
+  "parameters": 47946,
+  "scope": "Synthetic changes ONLY; no real injury claims",
+  "manifest_sha256": "7fe94fa6dc473d979786358f114ec61723654d7279e794029e7386db146ddfc0",
+  "region_type": "Provisional atlas mask, NOT expert ground truth",
+  "evaluation_status": "Development holdouts; not a confirmatory injury test"
+}

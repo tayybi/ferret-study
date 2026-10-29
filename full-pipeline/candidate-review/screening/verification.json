@@ -1,0 +1,18 @@
+{
+  "candidate_count": 210,
+  "counts": {
+    "uncertain": 161,
+    "likely processing artifact": 25,
+    "possible change": 24
+  },
+  "shortlist_images_checked": 65,
+  "all_candidates_retained": true,
+  "reviewer_forms_blank": true,
+  "independent_shift_metric_check": "passed",
+  "component_size_and_slice_counts": "passed",
+  "image_integrity_and_local_links": "passed",
+  "javascript_syntax": "passed",
+  "browser_interaction_tested": false,
+  "diagnostic_validation": "not performed",
+  "script_sha256": "e1a0a735a484403fc01740321f58b8c7902a9a0b659c135469750af40eb95080"
+}

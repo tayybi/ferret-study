@@ -1,0 +1,951 @@
+{
+ "n_sessions": 72,
+ "n_voxels": 36634,
+ "analysis_volume_mm3": 4579.25,
+ "n_by_group": {
+  "3d-10psi": 9,
+  "3d-20psi": 9,
+  "3d-Sham": 9,
+  "7d-10psi": 9,
+  "7d-20psi": 9,
+  "7d-Sham": 7,
+  "fiskum_baseline": 20
+ },
+ "excluded_sessions": [],
+ "variants": {
+  "main": {
+   "primary": {
+    "mean_20psi_7d": 0.0,
+    "mean_sham_7d": 0.004383125745794305,
+    "n": [
+     9,
+     7
+    ],
+    "diff": -0.004383125745794305,
+    "ci95": [
+     -0.013149377237382914,
+     0.0
+    ],
+    "hedges_g": -0.5458584363247371,
+    "p_exact": 0.4375
+   },
+   "dose_trend": {
+    "coef_per_step": -0.0009560700146630001,
+    "t": -1.2983239649276657,
+    "p_perm": 0.19198080191980801,
+    "n": 52
+   },
+   "dose_x_time": {
+    "coef": -0.002046595678970103,
+    "t": -1.4007355652070281,
+    "p_perm": 0.22447755224477553
+   },
+   "group_means": {
+    "3d-Sham": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-Sham": {
+     "mean": 0.004383125745794305,
+     "sd": 0.011596660688496244,
+     "n": 7
+    },
+    "7d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    }
+   },
+   "secondary_20psi_vs_sham_3d": {
+    "diff": 0.0,
+    "hedges_g": 0.0,
+    "p_perm_mc": 1.0
+   },
+   "false_alarm_shams": {
+    "mean_voxel_fp_fraction": 0.0019176175137850084,
+    "share_with_any_rejection": 0.0625,
+    "max_voxel_fp_fraction": 0.030681880220560134
+   },
+   "fiskum_external_normals": {
+    "mean_burden": 0.02185810995250314,
+    "share_animal_p_below_0.05": 0.0,
+    "n": 20
+   },
+   "sources": [
+    "residuals_seed0.npy",
+    "residuals_seed1.npy",
+    "residuals_seed2.npy"
+   ]
+  },
+  "fiskum_pool": {
+   "primary": {
+    "mean_20psi_7d": 0.0,
+    "mean_sham_7d": 0.0045157114000265175,
+    "n": [
+     9,
+     7
+    ],
+    "diff": -0.0045157114000265175,
+    "ci95": [
+     -0.013547134200079552,
+     0.0
+    ],
+    "hedges_g": -0.5458584363247372,
+    "p_exact": 0.4375
+   },
+   "dose_trend": {
+    "coef_per_step": -0.0009849902820104578,
+    "t": -1.2983239649276659,
+    "p_perm": 0.1952804719528047,
+    "n": 52
+   },
+   "dose_x_time": {
+    "coef": -0.002108503377444287,
+    "t": -1.400735565207028,
+    "p_perm": 0.22747725227477253
+   },
+   "group_means": {
+    "3d-Sham": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-Sham": {
+     "mean": 0.0045157114000265175,
+     "sd": 0.011947449357009476,
+     "n": 7
+    },
+    "7d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    }
+   },
+   "secondary_20psi_vs_sham_3d": {
+    "diff": 0.0,
+    "hedges_g": 0.0,
+    "p_perm_mc": 1.0
+   },
+   "false_alarm_shams": {
+    "mean_voxel_fp_fraction": 0.0019756237375116014,
+    "share_with_any_rejection": 0.0625,
+    "max_voxel_fp_fraction": 0.03160997980018562
+   },
+   "sources": [
+    "residuals_seed0.npy"
+   ]
+  },
+  "t2_only": {
+   "primary": {
+    "mean_20psi_7d": 0.0,
+    "mean_sham_7d": 0.03358706587947184,
+    "n": [
+     9,
+     7
+    ],
+    "diff": -0.03358706587947184,
+    "ci95": [
+     -0.10076119763841551,
+     0.0
+    ],
+    "hedges_g": -0.5458584363247372,
+    "p_exact": 0.4375
+   },
+   "dose_trend": {
+    "coef_per_step": -0.007326184195989694,
+    "t": -1.298323964927665,
+    "p_perm": 0.1952804719528047,
+    "n": 52
+   },
+   "dose_x_time": {
+    "coef": -0.015682676675239763,
+    "t": -1.400735565207028,
+    "p_perm": 0.22157784221577842
+   },
+   "group_means": {
+    "3d-Sham": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-Sham": {
+     "mean": 0.03358706587947184,
+     "sd": 0.0888630235854254,
+     "n": 7
+    },
+    "7d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    }
+   },
+   "secondary_20psi_vs_sham_3d": {
+    "diff": 0.0,
+    "hedges_g": 0.0,
+    "p_perm_mc": 1.0
+   },
+   "false_alarm_shams": {
+    "mean_voxel_fp_fraction": 0.01469434132226893,
+    "share_with_any_rejection": 0.0625,
+    "max_voxel_fp_fraction": 0.23510946115630288
+   },
+   "fiskum_external_normals": {
+    "mean_burden": 0.0,
+    "share_animal_p_below_0.05": 0.0,
+    "n": 20
+   },
+   "sources": [
+    "residuals_seed0.npy"
+   ]
+  },
+  "dti_only": {
+   "primary": {
+    "mean_20psi_7d": 0.0,
+    "mean_sham_7d": 0.0,
+    "n": [
+     9,
+     7
+    ],
+    "diff": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "hedges_g": 0.0,
+    "p_exact": 1.0
+   },
+   "dose_trend": {
+    "coef_per_step": -0.0002541155844133199,
+    "t": -0.9356064952532974,
+    "p_perm": 0.37806219378062195,
+    "n": 52
+   },
+   "dose_x_time": {
+    "coef": 0.0004266682962283498,
+    "t": 0.7804944255653455,
+    "p_perm": 0.47535246475352466
+   },
+   "group_means": {
+    "3d-Sham": {
+     "mean": 0.000906868543490261,
+     "sd": 0.002720605630470783,
+     "n": 9
+    },
+    "3d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-Sham": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 7
+    },
+    "7d-10psi": {
+     "mean": 0.0008917035176793871,
+     "sd": 0.0026751105530381613,
+     "n": 9
+    },
+    "7d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    }
+   },
+   "secondary_20psi_vs_sham_3d": {
+    "diff": -0.000906868543490261,
+    "hedges_g": -0.44895668646764925,
+    "p_perm_mc": 1.0
+   },
+   "false_alarm_shams": {
+    "mean_voxel_fp_fraction": 0.0005101135557132718,
+    "share_with_any_rejection": 0.0625,
+    "max_voxel_fp_fraction": 0.008161816891412349
+   },
+   "fiskum_external_normals": {
+    "mean_burden": 0.03501665119834034,
+    "share_animal_p_below_0.05": 0.0,
+    "n": 20
+   },
+   "sources": [
+    "residuals_seed0.npy"
+   ]
+  },
+  "no_logj": {
+   "primary": {
+    "mean_20psi_7d": 0.0,
+    "mean_sham_7d": 0.004387025323859958,
+    "n": [
+     9,
+     7
+    ],
+    "diff": -0.004387025323859958,
+    "ci95": [
+     -0.013161075971579875,
+     0.0
+    ],
+    "hedges_g": -0.5458584363247371,
+    "p_exact": 0.4375
+   },
+   "dose_trend": {
+    "coef_per_step": -0.0009569206107614546,
+    "t": -1.2983239649276654,
+    "p_perm": 0.20007999200079993,
+    "n": 52
+   },
+   "dose_x_time": {
+    "coef": -0.0020484164936311086,
+    "t": -1.4007355652070284,
+    "p_perm": 0.22477752224777522
+   },
+   "group_means": {
+    "3d-Sham": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-Sham": {
+     "mean": 0.004387025323859958,
+     "sd": 0.011606978002276044,
+     "n": 7
+    },
+    "7d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    }
+   },
+   "secondary_20psi_vs_sham_3d": {
+    "diff": 0.0,
+    "hedges_g": 0.0,
+    "p_perm_mc": 1.0
+   },
+   "false_alarm_shams": {
+    "mean_voxel_fp_fraction": 0.0019193235791887318,
+    "share_with_any_rejection": 0.0625,
+    "max_voxel_fp_fraction": 0.03070917726701971
+   },
+   "fiskum_external_normals": {
+    "mean_burden": 0.02454686902877109,
+    "share_animal_p_below_0.05": 0.0,
+    "n": 20
+   },
+   "sources": [
+    "residuals_seed0.npy"
+   ]
+  },
+  "main_adapt20": {
+   "primary": {
+    "mean_20psi_7d": 0.0,
+    "mean_sham_7d": 0.001329756120387774,
+    "n": [
+     9,
+     7
+    ],
+    "diff": -0.001329756120387774,
+    "ci95": [
+     -0.003989268361163322,
+     0.0
+    ],
+    "hedges_g": -0.5458584363247371,
+    "p_exact": 0.4375
+   },
+   "dose_trend": {
+    "coef_per_step": -0.0002940936010406873,
+    "t": -1.3169362858446945,
+    "p_perm": 0.18708129187081293,
+    "n": 52
+   },
+   "dose_x_time": {
+    "coef": -0.0006133152864974146,
+    "t": -1.3834906055713323,
+    "p_perm": 0.23837616238376164
+   },
+   "group_means": {
+    "3d-Sham": {
+     "mean": 1.516502581087393e-05,
+     "sd": 4.5495077432621794e-05,
+     "n": 9
+    },
+    "3d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-Sham": {
+     "mean": 0.001329756120387774,
+     "sd": 0.0035182039989121168,
+     "n": 7
+    },
+    "7d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    }
+   },
+   "secondary_20psi_vs_sham_3d": {
+    "diff": -1.516502581087393e-05,
+    "hedges_g": -0.44895668646764914,
+    "p_perm_mc": 1.0
+   },
+   "false_alarm_shams": {
+    "mean_voxel_fp_fraction": 0.0005902986296882677,
+    "share_with_any_rejection": 0.125,
+    "max_voxel_fp_fraction": 0.009308292842714418
+   },
+   "fiskum_external_normals": {
+    "mean_burden": 0.020966861385598078,
+    "share_animal_p_below_0.05": 0.0,
+    "n": 20
+   },
+   "sources": [
+    "residuals_seed0.npy"
+   ]
+  },
+  "main_seed0": {
+   "primary": {
+    "mean_20psi_7d": 0.0,
+    "mean_sham_7d": 0.0013414548545847339,
+    "n": [
+     9,
+     7
+    ],
+    "diff": -0.0013414548545847339,
+    "ci95": [
+     -0.004024364563754201,
+     0.0
+    ],
+    "hedges_g": -0.545858436324737,
+    "p_exact": 0.4375
+   },
+   "dose_trend": {
+    "coef_per_step": -0.0002966453893360507,
+    "t": -1.3167750357856107,
+    "p_perm": 0.18638136186381363,
+    "n": 52
+   },
+   "dose_x_time": {
+    "coef": -0.0006187777304804305,
+    "t": -1.3836421836266206,
+    "p_perm": 0.24037596240375964
+   },
+   "group_means": {
+    "3d-Sham": {
+     "mean": 1.516502581087393e-05,
+     "sd": 4.5495077432621794e-05,
+     "n": 9
+    },
+    "3d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-Sham": {
+     "mean": 0.0013414548545847339,
+     "sd": 0.0035491559402515203,
+     "n": 7
+    },
+    "7d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    }
+   },
+   "secondary_20psi_vs_sham_3d": {
+    "diff": -1.516502581087393e-05,
+    "hedges_g": -0.44895668646764914,
+    "p_perm_mc": 1.0
+   },
+   "false_alarm_shams": {
+    "mean_voxel_fp_fraction": 0.0005954168258994377,
+    "share_with_any_rejection": 0.125,
+    "max_voxel_fp_fraction": 0.009390183982093138
+   },
+   "fiskum_external_normals": {
+    "mean_burden": 0.020991428727411696,
+    "share_animal_p_below_0.05": 0.0,
+    "n": 20
+   },
+   "sources": [
+    "residuals_seed0.npy"
+   ]
+  },
+  "main_seed1": {
+   "primary": {
+    "mean_20psi_7d": 0.0,
+    "mean_sham_7d": 0.00417644810831468,
+    "n": [
+     9,
+     7
+    ],
+    "diff": -0.00417644810831468,
+    "ci95": [
+     -0.012529344324944042,
+     0.0
+    ],
+    "hedges_g": -0.5458584363247371,
+    "p_exact": 0.4375
+   },
+   "dose_trend": {
+    "coef_per_step": -0.0009109884214449049,
+    "t": -1.2983239649276657,
+    "p_perm": 0.1845815418458154,
+    "n": 52
+   },
+   "dose_x_time": {
+    "coef": -0.001950092501936815,
+    "t": -1.4007355652070284,
+    "p_perm": 0.21937806219378062
+   },
+   "group_means": {
+    "3d-Sham": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-Sham": {
+     "mean": 0.00417644810831468,
+     "sd": 0.011049843058166794,
+     "n": 7
+    },
+    "7d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    }
+   },
+   "secondary_20psi_vs_sham_3d": {
+    "diff": 0.0,
+    "hedges_g": 0.0,
+    "p_perm_mc": 1.0
+   },
+   "false_alarm_shams": {
+    "mean_voxel_fp_fraction": 0.0018271960473876727,
+    "share_with_any_rejection": 0.0625,
+    "max_voxel_fp_fraction": 0.029235136758202763
+   },
+   "fiskum_external_normals": {
+    "mean_burden": 0.019884533493476006,
+    "share_animal_p_below_0.05": 0.0,
+    "n": 20
+   },
+   "sources": [
+    "residuals_seed1.npy"
+   ]
+  },
+  "main_seed2": {
+   "primary": {
+    "mean_20psi_7d": 0.0,
+    "mean_sham_7d": 0.007319508029231237,
+    "n": [
+     9,
+     7
+    ],
+    "diff": -0.007319508029231237,
+    "ci95": [
+     -0.021958524087693714,
+     0.0
+    ],
+    "hedges_g": -0.5458584363247371,
+    "p_exact": 0.4375
+   },
+   "dose_trend": {
+    "coef_per_step": -0.0015965688767993337,
+    "t": -1.2983239649276654,
+    "p_perm": 0.19268073192680732,
+    "n": 52
+   },
+   "dose_x_time": {
+    "coef": -0.0034176691187071933,
+    "t": -1.4007355652070292,
+    "p_perm": 0.2273772622737726
+   },
+   "group_means": {
+    "3d-Sham": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-Sham": {
+     "mean": 0.007319508029231237,
+     "sd": 0.019365597964686346,
+     "n": 7
+    },
+    "7d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    }
+   },
+   "secondary_20psi_vs_sham_3d": {
+    "diff": 0.0,
+    "hedges_g": 0.0,
+    "p_perm_mc": 1.0
+   },
+   "false_alarm_shams": {
+    "mean_voxel_fp_fraction": 0.003202284762788666,
+    "share_with_any_rejection": 0.0625,
+    "max_voxel_fp_fraction": 0.05123655620461866
+   },
+   "fiskum_external_normals": {
+    "mean_burden": 0.02078124146967298,
+    "share_animal_p_below_0.05": 0.0,
+    "n": 20
+   },
+   "sources": [
+    "residuals_seed2.npy"
+   ]
+  },
+  "B1_raw_z": {
+   "primary": {
+    "mean_20psi_7d": 0.0,
+    "mean_sham_7d": 0.0010762835461203097,
+    "n": [
+     9,
+     7
+    ],
+    "diff": -0.0010762835461203097,
+    "ci95": [
+     -0.003228850638360929,
+     0.0
+    ],
+    "hedges_g": -0.5458584363247371,
+    "p_exact": 0.4375
+   },
+   "dose_trend": {
+    "coef_per_step": -0.0002734241158482394,
+    "t": -0.43937469765762194,
+    "p_perm": 0.7037296270372962,
+    "n": 52
+   },
+   "dose_x_time": {
+    "coef": -0.0005853008727801953,
+    "t": -0.4653265933507271,
+    "p_perm": 0.6947305269473053
+   },
+   "group_means": {
+    "3d-Sham": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-10psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "3d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    },
+    "7d-Sham": {
+     "mean": 0.0010762835461203097,
+     "sd": 0.002847578603225056,
+     "n": 7
+    },
+    "7d-10psi": {
+     "mean": 0.0027570016924168806,
+     "sd": 0.008271005077250641,
+     "n": 9
+    },
+    "7d-20psi": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "n": 9
+    }
+   },
+   "secondary_20psi_vs_sham_3d": {
+    "diff": 0.0,
+    "hedges_g": 0.0,
+    "p_perm_mc": 1.0
+   },
+   "false_alarm_shams": {
+    "mean_voxel_fp_fraction": 0.0004708740514276355,
+    "share_with_any_rejection": 0.0625,
+    "max_voxel_fp_fraction": 0.007533984822842168
+   },
+   "fiskum_external_normals": {
+    "mean_burden": 0.005489436043020145,
+    "share_animal_p_below_0.05": 0.0,
+    "n": 20
+   },
+   "sources": [
+    "raw channels"
+   ]
+  }
+ },
+ "primary_variant": "main",
+ "mrs": {
+  "convention_fraction_in_brain": {
+   "as_stored": 0.37098495827569644,
+   "flip_xy": 0.9956393521659228
+  },
+  "convention": "flip_xy",
+  "n_with_mrs": 42,
+  "n_qc_pass": 39,
+  "variants_used": {
+   "v6": 19,
+   "ouput": 23
+  },
+  "correlations": {
+   "NAA+NAAG/Cr+PCr": {
+    "rho": -0.2839499956812545,
+    "p_perm": 0.0805919408059194,
+    "n": 39,
+    "p_holm": 0.2417758224177582
+   },
+   "Glu/Cr+PCr": {
+    "rho": -0.18542510121457492,
+    "p_perm": 0.25277472252774724,
+    "n": 39,
+    "p_holm": 0.5011498850114988
+   },
+   "Ins/Cr+PCr": {
+    "rho": 0.19091001211280653,
+    "p_perm": 0.2505749425057494,
+    "n": 39,
+    "p_holm": 0.5011498850114988
+   },
+   "Lac/Cr+PCr": {
+    "rho": null,
+    "p_perm": null,
+    "n": 0
+   }
+  },
+  "group_means": {
+   "3d-Sham": {
+    "NAA+NAAG/Cr+PCr": 1.2603333333333333,
+    "Glu/Cr+PCr": 1.591,
+    "Ins/Cr+PCr": 1.7235000000000003,
+    "Lac/Cr+PCr": 0.04516666666666667
+   },
+   "3d-10psi": {
+    "NAA+NAAG/Cr+PCr": 1.1167500000000001,
+    "Glu/Cr+PCr": 1.4915,
+    "Ins/Cr+PCr": 1.90275,
+    "Lac/Cr+PCr": 0.034499999999999996
+   },
+   "3d-20psi": {
+    "NAA+NAAG/Cr+PCr": 1.12525,
+    "Glu/Cr+PCr": 1.39625,
+    "Ins/Cr+PCr": 1.6167500000000001,
+    "Lac/Cr+PCr": 0.02425
+   },
+   "7d-Sham": {
+    "NAA+NAAG/Cr+PCr": 1.0799999999999998,
+    "Glu/Cr+PCr": 1.491857142857143,
+    "Ins/Cr+PCr": 1.852857142857143,
+    "Lac/Cr+PCr": 0.06047142857142858
+   },
+   "7d-10psi": {
+    "NAA+NAAG/Cr+PCr": 1.1256666666666666,
+    "Glu/Cr+PCr": 1.5634444444444446,
+    "Ins/Cr+PCr": 1.7773333333333334,
+    "Lac/Cr+PCr": 0.05142222222222222
+   },
+   "7d-20psi": {
+    "NAA+NAAG/Cr+PCr": 1.1347777777777779,
+    "Glu/Cr+PCr": 1.5681111111111112,
+    "Ins/Cr+PCr": 1.802777777777778,
+    "Lac/Cr+PCr": 0.04622222222222222
+   }
+  }
+ },
+ "B2_maxT": {
+  "FA_3d": {
+   "n_sig_voxels_fwer05": 0,
+   "max_abs_t": 5.99650764465332,
+   "fwer_p_min": 0.1801639672065587,
+   "direction_of_peak": "down"
+  },
+  "FA_7d": {
+   "n_sig_voxels_fwer05": 0,
+   "max_abs_t": 6.417281150817871,
+   "fwer_p_min": 0.1239752049590082,
+   "direction_of_peak": "down"
+  },
+  "MD_3d": {
+   "n_sig_voxels_fwer05": 0,
+   "max_abs_t": 5.373299598693848,
+   "fwer_p_min": 0.19096180763847231,
+   "direction_of_peak": "down"
+  },
+  "MD_7d": {
+   "n_sig_voxels_fwer05": 0,
+   "max_abs_t": 5.362699031829834,
+   "fwer_p_min": 0.27174565086982605,
+   "direction_of_peak": "up"
+  }
+ },
+ "synthetic_lesions": {
+  "model": [
+   {
+    "amp_sd": 1,
+    "voxel_sensitivity": 0.0,
+    "detection_rate": 0.0,
+    "n": 16
+   },
+   {
+    "amp_sd": 2,
+    "voxel_sensitivity": 0.0,
+    "detection_rate": 0.0,
+    "n": 16
+   },
+   {
+    "amp_sd": 3,
+    "voxel_sensitivity": 0.015189243027888447,
+    "detection_rate": 0.0625,
+    "n": 16
+   },
+   {
+    "amp_sd": 4,
+    "voxel_sensitivity": 0.03710159362549801,
+    "detection_rate": 0.0625,
+    "n": 16
+   }
+  ],
+  "B1_raw_z": [
+   {
+    "amp_sd": 1,
+    "voxel_sensitivity": 0.0,
+    "detection_rate": 0.0,
+    "n": 16
+   },
+   {
+    "amp_sd": 2,
+    "voxel_sensitivity": 0.0,
+    "detection_rate": 0.0,
+    "n": 16
+   },
+   {
+    "amp_sd": 3,
+    "voxel_sensitivity": 0.0,
+    "detection_rate": 0.0,
+    "n": 16
+   },
+   {
+    "amp_sd": 4,
+    "voxel_sensitivity": 0.0,
+    "detection_rate": 0.0,
+    "n": 16
+   }
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+  "atlas": "Hutchinson et al. 2017 adult ferret atlas",
+  "source_page": "https://scalablebrainatlas.incf.org/ferret/HSRetal17",
+  "source_paper": "https://doi.org/10.1016/j.neuroimage.2017.03.009",
+  "files": {
+    "evDTI_SEGMENTATION.nii.gz": "f167a9aa8b67ec547e82609275530720153da6f37f2ae70128f54819af4b31f4",
+    "Template4D_TE040.nii.gz": "5725371b594f0eabb7035288d0a321fbc9c63b3608254144b5aeb891fc576611"
+  },
+  "method": "In-vivo TE40 template with transferred ex-vivo label union; cross-template alignment provisional",
+  "review_status": "Not validated against expert masks; no anatomical regional labels analyzed"
+}

@@ -1,0 +1,46 @@
+{
+  "args": {
+    "device": "mps",
+    "steps": 200,
+    "batch_size": 4,
+    "inner_steps": 2,
+    "inner_lr": 0.1,
+    "lr": 0.001,
+    "eval_interval": 25,
+    "seed": 42,
+    "run": "pilot-001"
+  },
+  "device": "mps",
+  "torch": "2.3.0",
+  "split": {
+    "train": [
+      "BCF100",
+      "BCF102",
+      "BCF103",
+      "BCF82",
+      "BCF83",
+      "BCF89",
+      "BCF90",
+      "BCF91",
+      "BCF92",
+      "BCF94",
+      "BCF98",
+      "BCF99"
+    ],
+    "validation": [
+      "BCF80",
+      "BCF81",
+      "BCF93",
+      "BCF95"
+    ],
+    "test": [
+      "BCF101",
+      "BCF88",
+      "BCF96",
+      "BCF97"
+    ]
+  },
+  "parameters": 47946,
+  "scope": "Synthetic changes ONLY; no real injury claims",
+  "manifest_sha256": "8423946a9f6c152cde62c590a6d03feb0182355c03665af3be4100d13c4a743a"
+}

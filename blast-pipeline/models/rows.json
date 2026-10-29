@@ -1,0 +1,722 @@
+[
+ {
+  "id": "3d-10psi-450154F",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "3d",
+  "animal": "450154F",
+  "session": "Ferret/MRI groups/3d/10psi/450154F",
+  "scan_session": "2024-07-11",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "3d-10psi-451371F",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "3d",
+  "animal": "451371F",
+  "session": "Ferret/MRI groups/3d/10psi/451371F",
+  "scan_session": "2024-07-11",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "3d-10psi-701911",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "3d",
+  "animal": "701911",
+  "session": "Ferret/MRI groups/3d/10psi/701911",
+  "scan_session": "2025-02-21",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "3d-10psi-702011",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "3d",
+  "animal": "702011",
+  "session": "Ferret/MRI groups/3d/10psi/702011",
+  "scan_session": "2025-02-21",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "3d-10psi-702201",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "3d",
+  "animal": "702201",
+  "session": "Ferret/MRI groups/3d/10psi/702201",
+  "scan_session": "2025-03-21",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "3d-10psi-705201",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "3d",
+  "animal": "705201",
+  "session": "Ferret/MRI groups/3d/10psi/705201",
+  "scan_session": "2025-03-21",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "3d-10psi-709581",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "3d",
+  "animal": "709581",
+  "session": "Ferret/MRI groups/3d/10psi/709581",
+  "scan_session": "2025-08-14",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "3d-10psi-FY249794",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "3d",
+  "animal": "FY249794",
+  "session": "Ferret/MRI groups/3d/10psi/FY249794",
+  "scan_session": "2024-10-07",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "3d-10psi-FY249795",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "3d",
+  "animal": "FY249795",
+  "session": "Ferret/MRI groups/3d/10psi/FY249795",
+  "scan_session": "2024-10-07",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "3d-20psi-460467F.699081.699111",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "3d",
+  "animal": "460467F.699081.699111",
+  "session": "Ferret/MRI groups/3d/20psi/460467F.699081.699111",
+  "scan_session": "2024-11-07",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "3d-20psi-461601F.699081.699111",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "3d",
+  "animal": "461601F.699081.699111",
+  "session": "Ferret/MRI groups/3d/20psi/461601F.699081.699111",
+  "scan_session": "2024-11-07",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "3d-20psi-699821",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "3d",
+  "animal": "699821",
+  "session": "Ferret/MRI groups/3d/20psi/699821",
+  "scan_session": "2025-01-24",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "3d-20psi-699851",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "3d",
+  "animal": "699851",
+  "session": "Ferret/MRI groups/3d/20psi/699851",
+  "scan_session": "2025-01-24",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "3d-20psi-705281",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "3d",
+  "animal": "705281",
+  "session": "Ferret/MRI groups/3d/20psi/705281",
+  "scan_session": "2025-04-04",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "3d-20psi-705541",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "3d",
+  "animal": "705541",
+  "session": "Ferret/MRI groups/3d/20psi/705541",
+  "scan_session": "2025-04-04",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "3d-20psi-706801",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "3d",
+  "animal": "706801",
+  "session": "Ferret/MRI groups/3d/20psi/706801",
+  "scan_session": "2025-08-14",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "3d-20psi-709541",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "3d",
+  "animal": "709541",
+  "session": "Ferret/MRI groups/3d/20psi/709541",
+  "scan_session": "2025-08-14",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "3d-20psi-709601",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "3d",
+  "animal": "709601",
+  "session": "Ferret/MRI groups/3d/20psi/709601",
+  "scan_session": "2025-08-14",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "3d-Sham-450545F",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "3d",
+  "animal": "450545F",
+  "session": "Ferret/MRI groups/3d/Sham/450545F",
+  "scan_session": "2024-07-11",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "3d-Sham-697741",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "3d",
+  "animal": "697741",
+  "session": "Ferret/MRI groups/3d/Sham/697741",
+  "scan_session": "2025-01-24",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "3d-Sham-701951",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "3d",
+  "animal": "701951",
+  "session": "Ferret/MRI groups/3d/Sham/701951",
+  "scan_session": "2025-02-21",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "3d-Sham-702191",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "3d",
+  "animal": "702191",
+  "session": "Ferret/MRI groups/3d/Sham/702191",
+  "scan_session": "2025-02-21",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "3d-Sham-702241",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "3d",
+  "animal": "702241",
+  "session": "Ferret/MRI groups/3d/Sham/702241",
+  "scan_session": "2025-03-21",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "3d-Sham-705171",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "3d",
+  "animal": "705171",
+  "session": "Ferret/MRI groups/3d/Sham/705171",
+  "scan_session": "2025-03-21",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "3d-Sham-705271",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "3d",
+  "animal": "705271",
+  "session": "Ferret/MRI groups/3d/Sham/705271",
+  "scan_session": "2025-04-04",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "3d-Sham-705291",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "3d",
+  "animal": "705291",
+  "session": "Ferret/MRI groups/3d/Sham/705291",
+  "scan_session": "2025-04-04",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "3d-Sham-FY249792",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "3d",
+  "animal": "FY249792",
+  "session": "Ferret/MRI groups/3d/Sham/FY249792",
+  "scan_session": "2024-10-07",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "7d-10psi-707781",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "7d",
+  "animal": "707781",
+  "session": "Ferret/MRI groups/7d/10psi/707781",
+  "scan_session": "2025-10-09",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "7d-10psi-709021",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "7d",
+  "animal": "709021",
+  "session": "Ferret/MRI groups/7d/10psi/709021",
+  "scan_session": "2025-12-11",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "7d-10psi-709521",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "7d",
+  "animal": "709521",
+  "session": "Ferret/MRI groups/7d/10psi/709521",
+  "scan_session": "2025-10-09",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "7d-10psi-709551",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "7d",
+  "animal": "709551",
+  "session": "Ferret/MRI groups/7d/10psi/709551",
+  "scan_session": "2025-09-04",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "7d-10psi-709621",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "7d",
+  "animal": "709621",
+  "session": "Ferret/MRI groups/7d/10psi/709621",
+  "scan_session": "2025-09-04",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "7d-10psi-711131",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "7d",
+  "animal": "711131",
+  "session": "Ferret/MRI groups/7d/10psi/711131",
+  "scan_session": "2025-12-11",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "7d-10psi-712431",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "7d",
+  "animal": "712431",
+  "session": "Ferret/MRI groups/7d/10psi/712431",
+  "scan_session": "2025-11-20",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "7d-10psi-712441",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "7d",
+  "animal": "712441",
+  "session": "Ferret/MRI groups/7d/10psi/712441",
+  "scan_session": "2025-11-20",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "7d-10psi-714571",
+  "cohort": "blast",
+  "group": "10psi",
+  "time": "7d",
+  "animal": "714571",
+  "session": "Ferret/MRI groups/7d/10psi/714571",
+  "scan_session": "2026-03-05",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "7d-20psi-708371",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "7d",
+  "animal": "708371",
+  "session": "Ferret/MRI groups/7d/20psi/708371",
+  "scan_session": "2025-11-06",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "7d-20psi-708441",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "7d",
+  "animal": "708441",
+  "session": "Ferret/MRI groups/7d/20psi/708441",
+  "scan_session": "2025-09-04",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "7d-20psi-708461",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "7d",
+  "animal": "708461",
+  "session": "Ferret/MRI groups/7d/20psi/708461",
+  "scan_session": "2025-09-04",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "7d-20psi-708471",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "7d",
+  "animal": "708471",
+  "session": "Ferret/MRI groups/7d/20psi/708471",
+  "scan_session": "2025-09-25",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "7d-20psi-710161",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "7d",
+  "animal": "710161",
+  "session": "Ferret/MRI groups/7d/20psi/710161",
+  "scan_session": "2025-11-06",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "7d-20psi-710271",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "7d",
+  "animal": "710271",
+  "session": "Ferret/MRI groups/7d/20psi/710271",
+  "scan_session": "2025-09-25",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "7d-20psi-712661",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "7d",
+  "animal": "712661",
+  "session": "Ferret/MRI groups/7d/20psi/712661",
+  "scan_session": "2026-01-22",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "7d-20psi-712681",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "7d",
+  "animal": "712681",
+  "session": "Ferret/MRI groups/7d/20psi/712681",
+  "scan_session": "2026-01-22",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "7d-20psi-719791",
+  "cohort": "blast",
+  "group": "20psi",
+  "time": "7d",
+  "animal": "719791",
+  "session": "Ferret/MRI groups/7d/20psi/719791",
+  "scan_session": "2026-03-12",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "7d-Sham-707761",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "7d",
+  "animal": "707761",
+  "session": "Ferret/MRI groups/7d/Sham/707761",
+  "scan_session": "2025-10-30",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "7d-Sham-708861",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "7d",
+  "animal": "708861",
+  "session": "Ferret/MRI groups/7d/Sham/708861",
+  "scan_session": "2025-11-13",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "7d-Sham-709571",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "7d",
+  "animal": "709571",
+  "session": "Ferret/MRI groups/7d/Sham/709571",
+  "scan_session": "2025-11-13",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "7d-Sham-709611",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "7d",
+  "animal": "709611",
+  "session": "Ferret/MRI groups/7d/Sham/709611",
+  "scan_session": "2025-10-30",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "7d-Sham-712651",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "7d",
+  "animal": "712651",
+  "session": "Ferret/MRI groups/7d/Sham/712651",
+  "scan_session": "2025-12-18",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "7d-Sham-712691",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "7d",
+  "animal": "712691",
+  "session": "Ferret/MRI groups/7d/Sham/712691",
+  "scan_session": "2026-02-12",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "7d-Sham-719781",
+  "cohort": "blast",
+  "group": "Sham",
+  "time": "7d",
+  "animal": "719781",
+  "session": "Ferret/MRI groups/7d/Sham/719781",
+  "scan_session": "2026-03-12",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "fiskum-BCF100",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF100",
+  "session": "Ferret/Fiskum/Ferret_2024/Fiskum_020724_Ferret_1_1_20240207_090357",
+  "scan_session": "2024-02-07",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "fiskum-BCF101",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF101",
+  "session": "Ferret/Fiskum/Ferret_2024/Fiskum_020724_Ferret_1_2_20240207_101548",
+  "scan_session": "2024-02-07",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "fiskum-BCF102",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF102",
+  "session": "Ferret/Fiskum/Ferret_2024/Fiskum_021424_Ferret_1_1_20240214_085519",
+  "scan_session": "2024-02-14",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "fiskum-BCF103",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF103",
+  "session": "Ferret/Fiskum/Ferret_2024/Fiskum_021424_Ferret_1_2_20240214_100445",
+  "scan_session": "2024-02-14",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "fiskum-BCF80",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF80",
+  "session": "Ferret/Fiskum/Ferret_2024/Fiskum_050423_Ferret_1_1_20230504_090116",
+  "scan_session": "2023-05-04",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "fiskum-BCF81",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF81",
+  "session": "Ferret/Fiskum/Ferret_2024/Fiskum_050423_Ferret_1_2_20230504_100718",
+  "scan_session": "2023-05-04",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "fiskum-BCF82",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF82",
+  "session": "Ferret/Fiskum/Ferret_2024/Fiskum_050523_Ferret_1_1_20230505_085006",
+  "scan_session": "2023-05-05",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "fiskum-BCF83",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF83",
+  "session": "Ferret/Fiskum/Ferret_2024/Fiskum_050523_Ferret_1_2_20230505_095532",
+  "scan_session": "2023-05-05",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "fiskum-BCF88",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF88",
+  "session": "Ferret/Fiskum/Ferret_2023/Fiskum_080723_Ferret_1_1_20230807_090548",
+  "scan_session": "2023-08-07",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "fiskum-BCF89",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF89",
+  "session": "Ferret/Fiskum/Ferret_2023/Fiskum_080723_Ferret_1_2_20230807_101714",
+  "scan_session": "2023-08-07",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "fiskum-BCF90",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF90",
+  "session": "Ferret/Fiskum/Ferret_2023/Fiskum_081723_Ferret_1_2_20230817_100247",
+  "scan_session": "2023-08-17",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "fiskum-BCF91",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF91",
+  "session": "Ferret/Fiskum/Ferret_2023/Fiskum_081723_Ferret_1_3_20230817_111510",
+  "scan_session": "2023-08-17",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "fiskum-BCF92",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF92",
+  "session": "Ferret/Fiskum/Ferret_2023/Fiskum_081823_Ferret_1_1_20230818_084321",
+  "scan_session": "2023-08-18",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "fiskum-BCF93",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF93",
+  "session": "Ferret/Fiskum/Ferret_2023/Fiskum_081823_Ferret_1_2_20230818_094439",
+  "scan_session": "2023-08-18",
+  "fold_main_sess": 3
+ },
+ {
+  "id": "fiskum-BCF94",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF94",
+  "session": "Ferret/Fiskum/Ferret_2024/Fiskum_011724_Ferret_1_1_20240117_085743",
+  "scan_session": "2024-01-17",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "fiskum-BCF95",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF95",
+  "session": "Ferret/Fiskum/Ferret_2024/Fiskum_011724_Ferret_1_2_20240117_101935",
+  "scan_session": "2024-01-17",
+  "fold_main_sess": 0
+ },
+ {
+  "id": "fiskum-BCF96",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF96",
+  "session": "Ferret/Fiskum/Ferret_2024/Fiskum_012424_Ferret_1_1_20240124_085610",
+  "scan_session": "2024-01-24",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "fiskum-BCF97",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF97",
+  "session": "Ferret/Fiskum/Ferret_2024/Fiskum_012424_Ferret_1_2_20240124_102435",
+  "scan_session": "2024-01-24",
+  "fold_main_sess": 1
+ },
+ {
+  "id": "fiskum-BCF98",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF98",
+  "session": "Ferret/Fiskum/Ferret_2024/Fiskum_013124_Ferret_1_1_20240131_085614",
+  "scan_session": "2024-01-31",
+  "fold_main_sess": 2
+ },
+ {
+  "id": "fiskum-BCF99",
+  "cohort": "fiskum_baseline",
+  "group": "baseline",
+  "time": null,
+  "animal": "BCF99",
+  "session": "Ferret/Fiskum/Ferret_2024/Fiskum_013124_Ferret_1_2_20240131_100546",
+  "scan_session": "2024-01-31",
+  "fold_main_sess": 2
+ }
+]

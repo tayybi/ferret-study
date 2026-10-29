@@ -1,0 +1,15 @@
+{
+  "subjects": 20,
+  "sheets": 60,
+  "candidate_components": 210,
+  "candidate_volumes": 15,
+  "confirmed_injury_count": "not established",
+  "checks": [
+    "PNG integrity",
+    "candidate count and unique IDs",
+    "label volume geometry and IDs",
+    "blank reviewer assessments",
+    "JavaScript syntax"
+  ],
+  "browser_interaction_tested": false
+}

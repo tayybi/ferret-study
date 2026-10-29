@@ -1,0 +1,1061 @@
+{
+  "scope": "Provisional atlas-masked development pipeline; not injury validation",
+  "animals": [
+    {
+      "animal_id": "BCF100",
+      "label": "BCF100_baseline",
+      "date": "2024-02-07",
+      "collection": "Fiskum/Ferret_2024",
+      "scan": "6",
+      "source": "Ferret/Fiskum/Ferret_2024/Fiskum_020724_Ferret_1_1_20240207_090357/6/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF100_1month",
+          "date": "2024-03-20",
+          "path": "Fiskum/Ferret_2024/Fiskum_032024_Ferret_1_1_20240320_085056"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "ad66f22bb35936d25bfee5c3917d732dc24106f6e8fcbfec5c0594e94c8cfc3a",
+      "split": "train",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.02933737449347973,
+        8.053887906074532
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF100/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF101",
+      "label": "BCF101_baseline",
+      "date": "2024-02-07",
+      "collection": "Fiskum/Ferret_2024",
+      "scan": "5",
+      "source": "Ferret/Fiskum/Ferret_2024/Fiskum_020724_Ferret_1_2_20240207_101548/5/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF101_1month",
+          "date": "2024-03-20",
+          "path": "Fiskum/Ferret_2024/Fiskum_032024_Ferret_1_2_20240320_100338"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "6eff1664e17a2770e2fe881430430e85c57cccb68aa172aa4635c102c906463d",
+      "split": "test",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.027934879064559937,
+        7.856542110443115
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF101/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF102",
+      "label": "BCF102_baseline",
+      "date": "2024-02-14",
+      "collection": "Fiskum/Ferret_2024",
+      "scan": "6",
+      "source": "Ferret/Fiskum/Ferret_2024/Fiskum_021424_Ferret_1_1_20240214_085519/6/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF102_1month",
+          "date": "2024-03-26",
+          "path": "Fiskum/Ferret_2024/Fiskum_032624_Ferret_1_1_20240326_090052"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "b66cb17d978d9eed7888111a707f542ed8e7bc2c0244a9eb5d8a0c67ebc98669",
+      "split": "train",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.036367908120155334,
+        10.244301795959473
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF102/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF103",
+      "label": "BCF103_baseline",
+      "date": "2024-02-14",
+      "collection": "Fiskum/Ferret_2024",
+      "scan": "5",
+      "source": "Ferret/Fiskum/Ferret_2024/Fiskum_021424_Ferret_1_2_20240214_100445/5/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF103_1month",
+          "date": "2024-03-26",
+          "path": "Fiskum/Ferret_2024/Fiskum_032624_Ferret_1_2_20240326_101424"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "99b3106393a30bbe6af6cbebc3d01fe9d79768ff288504c1e405d86aa5c3d970",
+      "split": "train",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.03904455900192261,
+        9.78841781616211
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF103/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF80",
+      "label": "BCF80_baseline",
+      "date": "2023-05-04",
+      "collection": "Fiskum/Ferret_2024",
+      "scan": "6",
+      "source": "Ferret/Fiskum/Ferret_2024/Fiskum_050423_Ferret_1_1_20230504_090116/6/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF80_6month",
+          "date": "2023-11-13",
+          "path": "Fiskum/Ferret_2023/Fiskum_111323_Ferret_1_1_20231113_085740"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "96e08ddde00329fe29d317de7df62a61f40a2a12b0ad109beced15c2dbb5a1bf",
+      "split": "validation",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.03327646851539612,
+        11.365370979309095
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF80/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF81",
+      "label": "BCF81_baseline",
+      "date": "2023-05-04",
+      "collection": "Fiskum/Ferret_2024",
+      "scan": "5",
+      "source": "Ferret/Fiskum/Ferret_2024/Fiskum_050423_Ferret_1_2_20230504_100718/5/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF81_6month",
+          "date": "2023-11-13",
+          "path": "Fiskum/Ferret_2023/Fiskum_111323_Ferret_1_2_20231113_100251"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "2fef8ade113b44d84f7873ad850d076cf80ffd27a4a6d34c0a3dbb7dbc8428ac",
+      "split": "validation",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.03207278251647949,
+        10.984593300819414
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF81/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF82",
+      "label": "BCF82_baseline",
+      "date": "2023-05-05",
+      "collection": "Fiskum/Ferret_2024",
+      "scan": "5",
+      "source": "Ferret/Fiskum/Ferret_2024/Fiskum_050523_Ferret_1_1_20230505_085006/5/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF82_6month",
+          "date": "2023-11-15",
+          "path": "Fiskum/Ferret_2023/Fiskum_111523_Ferret_1_1_20231115_085612"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "d36d03ff79eb07f762a4ed5dd1d592e6188d041b6b510e25f20a7c3555d9b287",
+      "split": "train",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.03428255394101143,
+        12.149465899467483
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF82/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF83",
+      "label": "BCF83_baseline",
+      "date": "2023-05-05",
+      "collection": "Fiskum/Ferret_2024",
+      "scan": "11",
+      "source": "Ferret/Fiskum/Ferret_2024/Fiskum_050523_Ferret_1_2_20230505_095532/11/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF83_6month",
+          "date": "2023-11-15",
+          "path": "Fiskum/Ferret_2023/Fiskum_111523_Ferret_1_2_20231115_100333"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "6f6306c7ee4b49b3b36b6e2c1fdb5025fbc5575b237a7414873ec9fa899790cc",
+      "split": "train",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.036918338388204575,
+        10.263298034667969
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF83/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF88",
+      "label": "BCF88_baseline",
+      "date": "2023-08-07",
+      "collection": "Fiskum/Ferret_2023",
+      "scan": "6",
+      "source": "Ferret/Fiskum/Ferret_2023/Fiskum_080723_Ferret_1_1_20230807_090548/6/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF88_1month",
+          "date": "2023-09-18",
+          "path": "Fiskum/Ferret_2023/Fiskum_091823_Ferret_1_1_20230918_090345"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "11434999f66b92fb5563a5f62cc19fb6e1360d6615601b9f2e2169ad82c42987",
+      "split": "test",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.03256445378065109,
+        8.339651107788086
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF88/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF89",
+      "label": "BCF89_baseline",
+      "date": "2023-08-07",
+      "collection": "Fiskum/Ferret_2023",
+      "scan": "6",
+      "source": "Ferret/Fiskum/Ferret_2023/Fiskum_080723_Ferret_1_2_20230807_101714/6/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF89_1month",
+          "date": "2023-09-18",
+          "path": "Fiskum/Ferret_2023/Fiskum_091823_Ferret_1_2_20230918_102749"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "441a2ea36fe117bf850010407983889c008ac774ccd5c76340ca2aa305e682fa",
+      "split": "train",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.025259453803300858,
+        7.130699634552002
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF89/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF90",
+      "label": "BCF90_baseline",
+      "date": "2023-08-17",
+      "collection": "Fiskum/Ferret_2023",
+      "scan": "5",
+      "source": "Ferret/Fiskum/Ferret_2023/Fiskum_081723_Ferret_1_2_20230817_100247/5/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF90_1month",
+          "date": "2023-09-27",
+          "path": "Fiskum/Ferret_2023/Fiskum_092723_Ferret_1_1_20230927_085309"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "48e54aa4695dd3b0a4d8f609a1e0a2b7863f9fe39d3458408c5f32f998e05321",
+      "split": "train",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.0303831584751606,
+        8.460220336914062
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF90/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF91",
+      "label": "BCF91_baseline",
+      "date": "2023-08-17",
+      "collection": "Fiskum/Ferret_2023",
+      "scan": "5",
+      "source": "Ferret/Fiskum/Ferret_2023/Fiskum_081723_Ferret_1_3_20230817_111510/5/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF91_1month",
+          "date": "2023-09-27",
+          "path": "Fiskum/Ferret_2023/Fiskum_092723_Ferret_1_2_20230927_101310"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "a10d5e482a4f01e1642f89a4a8ad45f8ef5cc26e07ead022978306d9755aecb7",
+      "split": "train",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.024689514189958572,
+        7.085890769958496
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF91/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF92",
+      "label": "BCF92_baseline",
+      "date": "2023-08-18",
+      "collection": "Fiskum/Ferret_2023",
+      "scan": "5",
+      "source": "Ferret/Fiskum/Ferret_2023/Fiskum_081823_Ferret_1_1_20230818_084321/5/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF92_1month",
+          "date": "2023-10-04",
+          "path": "Fiskum/Ferret_2023/Fiskum_100423_Ferret_1_1_20231004_085546"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "e98b3527eeabb73ebd102976a5f7140134de75de82bd18b720d093b635b43852",
+      "split": "train",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.031164085492491722,
+        8.94471549987793
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF92/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF93",
+      "label": "BCF93_baseline",
+      "date": "2023-08-18",
+      "collection": "Fiskum/Ferret_2023",
+      "scan": "5",
+      "source": "Ferret/Fiskum/Ferret_2023/Fiskum_081823_Ferret_1_2_20230818_094439/5/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF93_1month",
+          "date": "2023-10-04",
+          "path": "Fiskum/Ferret_2023/Fiskum_100423_Ferret_1_2_20231004_101310"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "8fa0e84e6d1a05e67e4ba5af4398dae97ce407fdc0c53089b49a5fcb36479263",
+      "split": "validation",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.02911054529249668,
+        8.840805053710938
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF93/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF94",
+      "label": "BCF94_baseline",
+      "date": "2024-01-17",
+      "collection": "Fiskum/Ferret_2024",
+      "scan": "7",
+      "source": "Ferret/Fiskum/Ferret_2024/Fiskum_011724_Ferret_1_1_20240117_085743/7/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "d0b8e63e34d10aa38e14fd2f386f0d798a20beb5ab8ee25e705d3e688f16c4ee",
+      "split": "train",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.03738045692443848,
+        10.203553199768066
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF94/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF95",
+      "label": "BCF95_baseline",
+      "date": "2024-01-17",
+      "collection": "Fiskum/Ferret_2024",
+      "scan": "7",
+      "source": "Ferret/Fiskum/Ferret_2024/Fiskum_011724_Ferret_1_2_20240117_101935/7/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF95_1month",
+          "date": "2024-03-05",
+          "path": "Fiskum/Ferret_2024/Fiskum_030524_Ferret_1_1_20240305_113740"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "56378069071a46e6d4b874982703f220c8b3169003027a4abfc9e994224afa8e",
+      "split": "validation",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.035585347563028336,
+        9.570649147033691
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF95/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF96",
+      "label": "BCF96_baseline",
+      "date": "2024-01-24",
+      "collection": "Fiskum/Ferret_2024",
+      "scan": "7",
+      "source": "Ferret/Fiskum/Ferret_2024/Fiskum_012424_Ferret_1_1_20240124_085610/7/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF96_1month",
+          "date": "2024-03-06",
+          "path": "Fiskum/Ferret_2024/Fiskum_030624_Ferret_1_1_20240306_084828"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "efd3c1beb10c6c51e9f0b292649c17f129b58a28f0846186b1be874e6206d887",
+      "split": "test",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.044276364147663116,
+        10.729902267456055
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF96/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF97",
+      "label": "BCF97_baseline",
+      "date": "2024-01-24",
+      "collection": "Fiskum/Ferret_2024",
+      "scan": "6",
+      "source": "Ferret/Fiskum/Ferret_2024/Fiskum_012424_Ferret_1_2_20240124_102435/6/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF97_1month",
+          "date": "2024-03-06",
+          "path": "Fiskum/Ferret_2024/Fiskum_030624_Ferret_1_2_20240306_095929"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "3842b921ff01c742a0a5293d956bc351b0be7505c7dbd287b53ca44c76a08308",
+      "split": "test",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.03778109326958656,
+        10.294088363647461
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF97/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF98",
+      "label": "BCF98_baseline",
+      "date": "2024-01-31",
+      "collection": "Fiskum/Ferret_2024",
+      "scan": "9",
+      "source": "Ferret/Fiskum/Ferret_2024/Fiskum_013124_Ferret_1_1_20240131_085614/9/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF98_1month",
+          "date": "2024-03-11",
+          "path": "Fiskum/Ferret_2024/Fiskum_031124_Ferret_1_1_20240311_085602"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "ff24bccc85a3dcd8a20edeac694119c994bc5b91ea769a297d16011d17c8af3c",
+      "split": "train",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.0356452651321888,
+        10.469425201416016
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF98/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    },
+    {
+      "animal_id": "BCF99",
+      "label": "BCF99_baseline",
+      "date": "2024-01-31",
+      "collection": "Fiskum/Ferret_2024",
+      "scan": "6",
+      "source": "Ferret/Fiskum/Ferret_2024/Fiskum_013124_Ferret_1_2_20240131_100546/6/pdata/1",
+      "protocol": "04_RARE_T2_axial",
+      "status": "Scanner baseline label only; health and exposure not verified",
+      "candidate_followups": [
+        {
+          "label": "BCF99_1month",
+          "date": "2024-03-11",
+          "path": "Fiskum/Ferret_2024/Fiskum_031124_Ferret_1_2_20240311_101332"
+        }
+      ],
+      "original_shape": [
+        18,
+        366,
+        366
+      ],
+      "extent_mm": "55 55",
+      "thickness_mm": "1.5",
+      "orientation": "1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 \n0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 \n1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 0 \n0 1 0 0 0 1",
+      "source_sha256": "115fe5b8f477350f769a291789954ff5bf06fd576a8ec23db5d90cec1d10437b",
+      "split": "train",
+      "stored_slice_indices_zero_based": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "processed_shape": [
+        12,
+        128,
+        128
+      ],
+      "normalization_percentiles": [
+        0.03490883857011795,
+        10.065665245056152
+      ],
+      "source_processing": "ferret-study/full-pipeline/subjects/BCF99/processing.json",
+      "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+      "normalization": "Per-baseline atlas-mask percentiles"
+    }
+  ],
+  "image_size": 128,
+  "mask_status": "All masks require expert review"
+}

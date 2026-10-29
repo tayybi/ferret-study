@@ -1,0 +1,37 @@
+{
+  "status": "computational_development_run_complete",
+  "baseline_animals": 20,
+  "candidate_pairs": 19,
+  "map_sets": 15,
+  "withheld_pairs": [
+    "BCF80",
+    "BCF81",
+    "BCF82",
+    "BCF83"
+  ],
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "training_episodes_per_method_per_seed": 1000,
+  "tests_passed": 7,
+  "unchanged_source_binaries_verified": 39,
+  "readable_QA_images": 43,
+  "expert_masks_verified": false,
+  "real_lesion_ground_truth_available": false,
+  "conformal_guarantees_claimed": false,
+  "injury_accuracy_validated": false,
+  "remaining_scientific_work": [
+    "Verify experimental records",
+    "Expert mask and registration review",
+    "Independent real abnormality evaluation",
+    "Suitable healthy/sham calibration controls",
+    "Confirmatory animal-level evaluation"
+  ],
+  "cache_sha256": {
+    "baseline_t2.npz": "5cd407bcf45047bc7e3678c8cd589795159b55a9005bd1b133392ac56e1c5657",
+    "manifest.json": "7fe94fa6dc473d979786358f114ec61723654d7279e794029e7386db146ddfc0",
+    "brain_masks.npz": "b98a232b351f7a1da8de53bfac5c5227030d0195bf2d9d278de1fd7da9ef5558"
+  }
+}

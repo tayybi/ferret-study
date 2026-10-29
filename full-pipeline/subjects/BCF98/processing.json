@@ -1,0 +1,26 @@
+{
+  "animal_id": "BCF98",
+  "split": "train",
+  "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_013124_Ferret_1_1_20240131_085614/9/pdata/1",
+  "baseline_sha256": "ff24bccc85a3dcd8a20edeac694119c994bc5b91ea769a297d16011d17c8af3c",
+  "baseline_date": "2024-01-31",
+  "mask_volume_mm3": 6066.073428179314,
+  "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+  "coordinate_status": "Scanner physical geometry preserved; anatomical RAS not verified",
+  "followup": {
+    "label": "BCF98_1month",
+    "date": "2024-03-11",
+    "elapsed_days": 40,
+    "source": "Ferret/Fiskum/Ferret_2024/Fiskum_031124_Ferret_1_1_20240311_085602/6/pdata/1",
+    "sha256": "4666f32ea750d2ac09e29ca69e2bce7c92136687a1bde5c0e57b29ff07376203"
+  },
+  "status": "paired",
+  "registration_qc": "automated_checks_passed_expert_review_pending",
+  "registration_correlation_before": 0.6753325689365447,
+  "registration_correlation_after": 0.7202799664309217,
+  "coverage_fraction": 0.953594444280964,
+  "qc_flags": [],
+  "transforms": [
+    "/Users/tayyab/Mousedata/ferret-study/full-pipeline/subjects/BCF98/followup_0GenericAffine.mat"
+  ]
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "animal_id": "BCF100",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "train",
+    "followup_label": "BCF100_1month",
+    "elapsed_days": 42,
+    "registration_correlation": 0.6604580618566406,
+    "coverage_fraction": 0.9342742170642094,
+    "mean_change_score": 0.09321943670511246,
+    "fraction_above_uncalibrated_0_5": 0.082896379525593,
+    "mean_seed_disagreement": 0.02589908055961132
+  },
+  {
+    "animal_id": "BCF101",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "test",
+    "followup_label": "BCF101_1month",
+    "elapsed_days": 42,
+    "registration_correlation": 0.7376074663051952,
+    "coverage_fraction": 0.999792930039935,
+    "mean_change_score": 0.09761075675487518,
+    "fraction_above_uncalibrated_0_5": 0.09027161370495296,
+    "mean_seed_disagreement": 0.024466341361403465
+  },
+  {
+    "animal_id": "BCF102",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "train",
+    "followup_label": "BCF102_1month",
+    "elapsed_days": 41,
+    "registration_correlation": 0.683085877317146,
+    "coverage_fraction": 0.9116099614170466,
+    "mean_change_score": 0.13460981845855713,
+    "fraction_above_uncalibrated_0_5": 0.12225856098499423,
+    "mean_seed_disagreement": 0.042106326669454575
+  },
+  {
+    "animal_id": "BCF103",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "train",
+    "followup_label": "BCF103_1month",
+    "elapsed_days": 41,
+    "registration_correlation": 0.7084023919775849,
+    "coverage_fraction": 0.9581099096430159,
+    "mean_change_score": 0.16768042743206024,
+    "fraction_above_uncalibrated_0_5": 0.14579017346402398,
+    "mean_seed_disagreement": 0.05563139170408249
+  },
+  {
+    "animal_id": "BCF80",
+    "status": "inference_withheld_registration_qc",
+    "flags": "low_structural_correlation"
+  },
+  {
+    "animal_id": "BCF81",
+    "status": "inference_withheld_registration_qc",
+    "flags": "low_structural_correlation"
+  },
+  {
+    "animal_id": "BCF82",
+    "status": "inference_withheld_registration_qc",
+    "flags": "low_structural_correlation"
+  },
+  {
+    "animal_id": "BCF83",
+    "status": "inference_withheld_registration_qc",
+    "flags": "low_structural_correlation"
+  },
+  {
+    "animal_id": "BCF88",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "test",
+    "followup_label": "BCF88_1month",
+    "elapsed_days": 42,
+    "registration_correlation": 0.8231212876086662,
+    "coverage_fraction": 0.9977749045313768,
+    "mean_change_score": 0.1117258295416832,
+    "fraction_above_uncalibrated_0_5": 0.09245698098423892,
+    "mean_seed_disagreement": 0.0428910069167614
+  },
+  {
+    "animal_id": "BCF89",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "train",
+    "followup_label": "BCF89_1month",
+    "elapsed_days": 42,
+    "registration_correlation": 0.7707877454067341,
+    "coverage_fraction": 0.990187775603773,
+    "mean_change_score": 0.08409418165683746,
+    "fraction_above_uncalibrated_0_5": 0.07458636859645501,
+    "mean_seed_disagreement": 0.029263034462928772
+  },
+  {
+    "animal_id": "BCF90",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "train",
+    "followup_label": "BCF90_1month",
+    "elapsed_days": 41,
+    "registration_correlation": 0.741677817587991,
+    "coverage_fraction": 0.9654555584880209,
+    "mean_change_score": 0.08539348840713501,
+    "fraction_above_uncalibrated_0_5": 0.08027822494912372,
+    "mean_seed_disagreement": 0.02080421894788742
+  },
+  {
+    "animal_id": "BCF91",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "train",
+    "followup_label": "BCF91_1month",
+    "elapsed_days": 41,
+    "registration_correlation": 0.8121178118500672,
+    "coverage_fraction": 0.9784283058399976,
+    "mean_change_score": 0.05114296078681946,
+    "fraction_above_uncalibrated_0_5": 0.04671854264688141,
+    "mean_seed_disagreement": 0.010702744126319885
+  },
+  {
+    "animal_id": "BCF92",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "train",
+    "followup_label": "BCF92_1month",
+    "elapsed_days": 47,
+    "registration_correlation": 0.7583375608993141,
+    "coverage_fraction": 0.969248358348968,
+    "mean_change_score": 0.11567698419094086,
+    "fraction_above_uncalibrated_0_5": 0.09817620905543961,
+    "mean_seed_disagreement": 0.04166821017861366
+  },
+  {
+    "animal_id": "BCF93",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "validation",
+    "followup_label": "BCF93_1month",
+    "elapsed_days": 47,
+    "registration_correlation": 0.7407030935585106,
+    "coverage_fraction": 0.977245190460711,
+    "mean_change_score": 0.09723108261823654,
+    "fraction_above_uncalibrated_0_5": 0.07801868819740543,
+    "mean_seed_disagreement": 0.04157687723636627
+  },
+  {
+    "animal_id": "BCF95",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "validation",
+    "followup_label": "BCF95_1month",
+    "elapsed_days": 48,
+    "registration_correlation": 0.7046217298231969,
+    "coverage_fraction": 1.0,
+    "mean_change_score": 0.15683475136756897,
+    "fraction_above_uncalibrated_0_5": 0.1456663808143833,
+    "mean_seed_disagreement": 0.03753097727894783
+  },
+  {
+    "animal_id": "BCF96",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "test",
+    "followup_label": "BCF96_1month",
+    "elapsed_days": 42,
+    "registration_correlation": 0.7163772007768491,
+    "coverage_fraction": 0.99524344126684,
+    "mean_change_score": 0.19055135548114777,
+    "fraction_above_uncalibrated_0_5": 0.17166859619437766,
+    "mean_seed_disagreement": 0.058762114495038986
+  },
+  {
+    "animal_id": "BCF97",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "test",
+    "followup_label": "BCF97_1month",
+    "elapsed_days": 42,
+    "registration_correlation": 0.6659007422964215,
+    "coverage_fraction": 0.9991441388265848,
+    "mean_change_score": 0.14346849918365479,
+    "fraction_above_uncalibrated_0_5": 0.12724856003544527,
+    "mean_seed_disagreement": 0.04368956387042999
+  },
+  {
+    "animal_id": "BCF98",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "train",
+    "followup_label": "BCF98_1month",
+    "elapsed_days": 40,
+    "registration_correlation": 0.7202799664309217,
+    "coverage_fraction": 0.953594444280964,
+    "mean_change_score": 0.12711137533187866,
+    "fraction_above_uncalibrated_0_5": 0.10606060606060606,
+    "mean_seed_disagreement": 0.04768820479512215
+  },
+  {
+    "animal_id": "BCF99",
+    "status": "exploratory_maps_generated_expert_review_pending",
+    "split": "train",
+    "followup_label": "BCF99_1month",
+    "elapsed_days": 40,
+    "registration_correlation": 0.6508908477244337,
+    "coverage_fraction": 0.9897423664122137,
+    "mean_change_score": 0.09764228761196136,
+    "fraction_above_uncalibrated_0_5": 0.0876416003856351,
+    "mean_seed_disagreement": 0.027242794632911682
+  }
+]

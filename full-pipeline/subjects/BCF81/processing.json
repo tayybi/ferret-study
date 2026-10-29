@@ -1,0 +1,58 @@
+{
+  "animal_id": "BCF81",
+  "split": "validation",
+  "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_050423_Ferret_1_2_20230504_100718/5/pdata/1",
+  "baseline_sha256": "2fef8ade113b44d84f7873ad850d076cf80ffd27a4a6d34c0a3dbb7dbc8428ac",
+  "baseline_date": "2023-05-04",
+  "mask_volume_mm3": 6080.710688606901,
+  "mask_status": "Public-atlas rigid transfer; provisional, not expert ground truth",
+  "coordinate_status": "Scanner physical geometry preserved; anatomical RAS not verified",
+  "followup": {
+    "label": "BCF81_6month",
+    "date": "2023-11-13",
+    "elapsed_days": 193,
+    "source": "Ferret/Fiskum/Ferret_2023/Fiskum_111323_Ferret_1_2_20231113_100251/5/pdata/1",
+    "sha256": "970cc75a1b2e55b81f52fe2a8f535d7c4df2e06d526fc9f6771bfd60e1e9ffa6"
+  },
+  "status": "paired",
+  "registration_qc": "flagged",
+  "registration_correlation_before": 0.47564234222496327,
+  "registration_correlation_after": 0.562435726630294,
+  "coverage_fraction": 0.882019668281227,
+  "qc_flags": [
+    "low_structural_correlation"
+  ],
+  "transforms": [
+    "/Users/tayyab/Mousedata/ferret-study/full-pipeline/subjects/BCF81/physical_retry_meansquares_0GenericAffine.mat"
+  ],
+  "first_registration_attempt": {
+    "registration_correlation_before": 0.5809214769486022,
+    "registration_correlation_after": 0.7400771135350345,
+    "coverage_fraction": 0.3309555261999119,
+    "registration_qc": "flagged",
+    "qc_flags": [
+      "incomplete_followup_coverage"
+    ],
+    "transforms": [
+      "/Users/tayyab/Mousedata/ferret-study/full-pipeline/subjects/BCF81/followup_0GenericAffine.mat"
+    ]
+  },
+  "registration_retry_candidates": [
+    {
+      "metric": "GC",
+      "correlation": 0.6089613974857986,
+      "coverage": 0.7440187876119184
+    },
+    {
+      "metric": "meansquares",
+      "correlation": 0.562435726630294,
+      "coverage": 0.882019668281227
+    },
+    {
+      "metric": "mattes",
+      "correlation": 0.5794526769770418,
+      "coverage": 0.6991927198003817
+    }
+  ],
+  "registration_metric": "meansquares"
+}

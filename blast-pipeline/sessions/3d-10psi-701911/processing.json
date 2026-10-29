@@ -1,0 +1,28 @@
+{
+ "id": "3d-10psi-701911",
+ "session": "Ferret/MRI groups/3d/10psi/701911",
+ "cohort": "blast",
+ "group": "10psi",
+ "time": "3d",
+ "animal": "701911",
+ "t2_source": "Ferret/MRI groups/3d/10psi/701911/6/pdata/1",
+ "t2_sha256": "5048ba2145a8f7f23d0cee87eb06c8b3b4f6d7a0535c7354b3ae8e8a26a105ae",
+ "mask_volume_mm3": 5869.898437814452,
+ "template_correlation": 0.6445699192247024,
+ "t_template": 16.224349975585938,
+ "dti_source": "Ferret/MRI groups/3d/10psi/701911/7",
+ "sdc": {
+  "fwd_rev_corr_before": 0.8545651077678311,
+  "fwd_rev_corr_after_full_warp": 0.9005365313304166,
+  "max_shift_mm": 5.330310821533203
+ },
+ "t_sdc": 27.509886026382446,
+ "t_motion": 61.21096086502075,
+ "motion": {
+  "max_translation_mm": 0.36565099832623366,
+  "median_translation_mm": 0.08947809249383748,
+  "fallbacks_to_identity": 0
+ },
+ "seconds": 62.064258098602295,
+ "status": "ok"
+}

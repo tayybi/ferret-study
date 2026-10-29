@@ -1,0 +1,387 @@
+{
+  "subjects": [
+    {
+      "animal": "BCF100",
+      "split": "train",
+      "pages": [
+        "BCF100_slices_01_06.png",
+        "BCF100_slices_07_12.png",
+        "BCF100_slices_13_18.png"
+      ],
+      "candidates": 10,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF100_1month",
+      "registration_correlation": 0.6604580618566406,
+      "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_020724_Ferret_1_1_20240207_090357/6/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2024/Fiskum_032024_Ferret_1_1_20240320_085056/5/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF101",
+      "split": "test",
+      "pages": [
+        "BCF101_slices_01_06.png",
+        "BCF101_slices_07_12.png",
+        "BCF101_slices_13_18.png"
+      ],
+      "candidates": 14,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF101_1month",
+      "registration_correlation": 0.7376074663051952,
+      "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_020724_Ferret_1_2_20240207_101548/5/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2024/Fiskum_032024_Ferret_1_2_20240320_100338/6/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF102",
+      "split": "train",
+      "pages": [
+        "BCF102_slices_01_06.png",
+        "BCF102_slices_07_12.png",
+        "BCF102_slices_13_18.png"
+      ],
+      "candidates": 15,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF102_1month",
+      "registration_correlation": 0.683085877317146,
+      "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_021424_Ferret_1_1_20240214_085519/6/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2024/Fiskum_032624_Ferret_1_1_20240326_090052/5/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF103",
+      "split": "train",
+      "pages": [
+        "BCF103_slices_01_06.png",
+        "BCF103_slices_07_12.png",
+        "BCF103_slices_13_18.png"
+      ],
+      "candidates": 14,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF103_1month",
+      "registration_correlation": 0.7084023919775849,
+      "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_021424_Ferret_1_2_20240214_100445/5/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2024/Fiskum_032624_Ferret_1_2_20240326_101424/5/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF80",
+      "split": "validation",
+      "pages": [
+        "BCF80_slices_01_06.png",
+        "BCF80_slices_07_12.png",
+        "BCF80_slices_13_18.png"
+      ],
+      "candidates": 0,
+      "status": "withheld_registration_qc",
+      "followup": "BCF80_6month",
+      "registration_correlation": 0.5587148523724724,
+      "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_050423_Ferret_1_1_20230504_090116/6/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2023/Fiskum_111323_Ferret_1_1_20231113_085740/5/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF81",
+      "split": "validation",
+      "pages": [
+        "BCF81_slices_01_06.png",
+        "BCF81_slices_07_12.png",
+        "BCF81_slices_13_18.png"
+      ],
+      "candidates": 0,
+      "status": "withheld_registration_qc",
+      "followup": "BCF81_6month",
+      "registration_correlation": 0.562435726630294,
+      "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_050423_Ferret_1_2_20230504_100718/5/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2023/Fiskum_111323_Ferret_1_2_20231113_100251/5/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF82",
+      "split": "train",
+      "pages": [
+        "BCF82_slices_01_06.png",
+        "BCF82_slices_07_12.png",
+        "BCF82_slices_13_18.png"
+      ],
+      "candidates": 0,
+      "status": "withheld_registration_qc",
+      "followup": "BCF82_6month",
+      "registration_correlation": 0.6431300877614247,
+      "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_050523_Ferret_1_1_20230505_085006/5/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2023/Fiskum_111523_Ferret_1_1_20231115_085612/5/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF83",
+      "split": "train",
+      "pages": [
+        "BCF83_slices_01_06.png",
+        "BCF83_slices_07_12.png",
+        "BCF83_slices_13_18.png"
+      ],
+      "candidates": 0,
+      "status": "withheld_registration_qc",
+      "followup": "BCF83_6month",
+      "registration_correlation": 0.6467145864793681,
+      "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_050523_Ferret_1_2_20230505_095532/11/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2023/Fiskum_111523_Ferret_1_2_20231115_100333/5/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF88",
+      "split": "test",
+      "pages": [
+        "BCF88_slices_01_06.png",
+        "BCF88_slices_07_12.png",
+        "BCF88_slices_13_18.png"
+      ],
+      "candidates": 21,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF88_1month",
+      "registration_correlation": 0.8231212876086662,
+      "baseline_source": "Ferret/Fiskum/Ferret_2023/Fiskum_080723_Ferret_1_1_20230807_090548/6/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2023/Fiskum_091823_Ferret_1_1_20230918_090345/7/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF89",
+      "split": "train",
+      "pages": [
+        "BCF89_slices_01_06.png",
+        "BCF89_slices_07_12.png",
+        "BCF89_slices_13_18.png"
+      ],
+      "candidates": 6,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF89_1month",
+      "registration_correlation": 0.7707877454067341,
+      "baseline_source": "Ferret/Fiskum/Ferret_2023/Fiskum_080723_Ferret_1_2_20230807_101714/6/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2023/Fiskum_091823_Ferret_1_2_20230918_102749/5/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF90",
+      "split": "train",
+      "pages": [
+        "BCF90_slices_01_06.png",
+        "BCF90_slices_07_12.png",
+        "BCF90_slices_13_18.png"
+      ],
+      "candidates": 14,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF90_1month",
+      "registration_correlation": 0.741677817587991,
+      "baseline_source": "Ferret/Fiskum/Ferret_2023/Fiskum_081723_Ferret_1_2_20230817_100247/5/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2023/Fiskum_092723_Ferret_1_1_20230927_085309/6/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF91",
+      "split": "train",
+      "pages": [
+        "BCF91_slices_01_06.png",
+        "BCF91_slices_07_12.png",
+        "BCF91_slices_13_18.png"
+      ],
+      "candidates": 6,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF91_1month",
+      "registration_correlation": 0.8121178118500672,
+      "baseline_source": "Ferret/Fiskum/Ferret_2023/Fiskum_081723_Ferret_1_3_20230817_111510/5/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2023/Fiskum_092723_Ferret_1_2_20230927_101310/14/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF92",
+      "split": "train",
+      "pages": [
+        "BCF92_slices_01_06.png",
+        "BCF92_slices_07_12.png",
+        "BCF92_slices_13_18.png"
+      ],
+      "candidates": 17,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF92_1month",
+      "registration_correlation": 0.7583375608993141,
+      "baseline_source": "Ferret/Fiskum/Ferret_2023/Fiskum_081823_Ferret_1_1_20230818_084321/5/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2023/Fiskum_100423_Ferret_1_1_20231004_085546/6/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF93",
+      "split": "validation",
+      "pages": [
+        "BCF93_slices_01_06.png",
+        "BCF93_slices_07_12.png",
+        "BCF93_slices_13_18.png"
+      ],
+      "candidates": 17,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF93_1month",
+      "registration_correlation": 0.7407030935585106,
+      "baseline_source": "Ferret/Fiskum/Ferret_2023/Fiskum_081823_Ferret_1_2_20230818_094439/5/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2023/Fiskum_100423_Ferret_1_2_20231004_101310/5/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF94",
+      "split": "train",
+      "pages": [
+        "BCF94_slices_01_06.png",
+        "BCF94_slices_07_12.png",
+        "BCF94_slices_13_18.png"
+      ],
+      "candidates": 0,
+      "status": "unmatched_baseline",
+      "followup": null,
+      "registration_correlation": null,
+      "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_011724_Ferret_1_1_20240117_085743/7/pdata/1",
+      "followup_source": "",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF95",
+      "split": "validation",
+      "pages": [
+        "BCF95_slices_01_06.png",
+        "BCF95_slices_07_12.png",
+        "BCF95_slices_13_18.png"
+      ],
+      "candidates": 11,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF95_1month",
+      "registration_correlation": 0.7046217298231969,
+      "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_011724_Ferret_1_2_20240117_101935/7/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2024/Fiskum_030524_Ferret_1_1_20240305_113740/6/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF96",
+      "split": "test",
+      "pages": [
+        "BCF96_slices_01_06.png",
+        "BCF96_slices_07_12.png",
+        "BCF96_slices_13_18.png"
+      ],
+      "candidates": 12,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF96_1month",
+      "registration_correlation": 0.7163772007768491,
+      "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_012424_Ferret_1_1_20240124_085610/7/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2024/Fiskum_030624_Ferret_1_1_20240306_084828/6/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF97",
+      "split": "test",
+      "pages": [
+        "BCF97_slices_01_06.png",
+        "BCF97_slices_07_12.png",
+        "BCF97_slices_13_18.png"
+      ],
+      "candidates": 15,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF97_1month",
+      "registration_correlation": 0.6659007422964215,
+      "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_012424_Ferret_1_2_20240124_102435/6/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2024/Fiskum_030624_Ferret_1_2_20240306_095929/6/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF98",
+      "split": "train",
+      "pages": [
+        "BCF98_slices_01_06.png",
+        "BCF98_slices_07_12.png",
+        "BCF98_slices_13_18.png"
+      ],
+      "candidates": 22,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF98_1month",
+      "registration_correlation": 0.7202799664309217,
+      "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_013124_Ferret_1_1_20240131_085614/9/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2024/Fiskum_031124_Ferret_1_1_20240311_085602/6/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    },
+    {
+      "animal": "BCF99",
+      "split": "train",
+      "pages": [
+        "BCF99_slices_01_06.png",
+        "BCF99_slices_07_12.png",
+        "BCF99_slices_13_18.png"
+      ],
+      "candidates": 16,
+      "status": "unconfirmed_candidates_for_review",
+      "followup": "BCF99_1month",
+      "registration_correlation": 0.6508908477244337,
+      "baseline_source": "Ferret/Fiskum/Ferret_2024/Fiskum_013124_Ferret_1_2_20240131_100546/6/pdata/1",
+      "followup_source": "Ferret/Fiskum/Ferret_2024/Fiskum_031124_Ferret_1_2_20240311_101332/5/pdata/1",
+      "reviewer": "",
+      "reviewer_assessment": "",
+      "notes": ""
+    }
+  ],
+  "candidate_count": 210,
+  "confirmed_injuries": null,
+  "threshold": 0.5,
+  "threshold_calibrated": false,
+  "connectivity": 26,
+  "minimum_component_size": 1,
+  "source_map_sha256": {
+    "subjects/BCF100/change_score.nii.gz": "fc6cc1925ea5fc27105bb4cae2480cf38383f0ed3753ff75cb3021502e339bd5",
+    "subjects/BCF101/change_score.nii.gz": "f6ea903837bacf16f41a874909d686e1c72bc51e04b718bd31dcdbf6746ff773",
+    "subjects/BCF102/change_score.nii.gz": "c50cd9e65a0bcb19f80eeefa4ac8d5cfa22006e6cb0091af28089226a4016b48",
+    "subjects/BCF103/change_score.nii.gz": "7f7604573c246589f0f97906e51e976bae2c04bac0f5cce5d0ee0c4025fe8284",
+    "subjects/BCF88/change_score.nii.gz": "af57348c01eff5f140d14a510fd7d6f62b16249f2b676169e1ab40b823a117c0",
+    "subjects/BCF89/change_score.nii.gz": "8cd2049845a5f16185561f1395d4977e9854b7044eee3735c46e46bfc7c63a52",
+    "subjects/BCF90/change_score.nii.gz": "c8f95213bf9e30827f3728d420a4e011f7f0aeabaa71ada2009bf21c66647d59",
+    "subjects/BCF91/change_score.nii.gz": "a17769d9551f292cbeabef16ed9b820321b888c5953370b8cf6375926f40664a",
+    "subjects/BCF92/change_score.nii.gz": "adb6bc811f81bd8e262d275da43fdff68d6ac599b03286796df2f11f30cec368",
+    "subjects/BCF93/change_score.nii.gz": "a6090da38e218243b3b28f055ca44e6461a0b87c49c3cd49b8872e39932ef89a",
+    "subjects/BCF95/change_score.nii.gz": "941c29cf73b53c48059bfa694449cc967f793ffd751fe61660c297444a4c2107",
+    "subjects/BCF96/change_score.nii.gz": "6b4d532af07d66bf62bb72c873762e2a88bd14ba419de4dd74feee5262e94155",
+    "subjects/BCF97/change_score.nii.gz": "d6d00f0c99af202af3dca2617980c13e3c223d60cd3d9db52a4d367a6b6efe87",
+    "subjects/BCF98/change_score.nii.gz": "2008455421b8c16f95df9f407d5ec96703b0f2aa519b00f0349ec31642224739",
+    "subjects/BCF99/change_score.nii.gz": "df8b2008be2a8637501cc29224a4bb13b2394be82a24861046736862b3fbbe2b"
+  }
+}

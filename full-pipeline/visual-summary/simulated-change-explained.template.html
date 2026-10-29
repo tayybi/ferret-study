@@ -1,0 +1,70 @@
+<div id="ferret-simulation-explainer">
+  <style>
+    #ferret-simulation-explainer { color:var(--foreground); }
+    #ferret-simulation-explainer .comparison { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; margin:18px 0 10px; }
+    #ferret-simulation-explainer .comparison.single { grid-template-columns:minmax(0,330px); justify-content:center; }
+    #ferret-simulation-explainer figure { margin:0; min-width:0; }
+    #ferret-simulation-explainer img { width:100%; aspect-ratio:1; object-fit:contain; }
+    #ferret-simulation-explainer figcaption { margin-top:8px; }
+    #ferret-simulation-explainer .stage { margin-top:16px; }
+    #ferret-simulation-explainer [hidden] { display:none !important; }
+    @media(max-width:450px) {
+      #ferret-simulation-explainer .comparison { grid-template-columns:1fr; gap:16px; }
+      #ferret-simulation-explainer img { max-height:240px; }
+    }
+  </style>
+  <h2>One MRI becomes a practice example</h2>
+  <div id="simulation-source" class="text-small text-muted"></div>
+  <div class="viz-controls" role="group" aria-label="Stages of creating a simulated change">
+    <button class="btn" type="button" data-step="0">1. Original MRI</button>
+    <button class="btn" type="button" data-step="1">2. Scan-like variation</button>
+    <button class="btn" type="button" data-step="2">3. Artificial change</button>
+    <button class="btn" type="button" data-step="3">4. Known answer</button>
+  </div>
+  <div id="simulation-stage" class="stage" aria-live="polite"></div>
+  <div id="simulation-comparison" class="comparison">
+    <figure><img id="simulation-left" alt="Reference stage"><figcaption id="simulation-left-label"></figcaption></figure>
+    <figure id="simulation-right-figure"><img id="simulation-right" alt="Modified stage"><figcaption id="simulation-right-label"></figcaption></figure>
+  </div>
+  <div id="simulation-detail" class="text-small" aria-live="polite"></div>
+  <h3>Training targets</h3>
+  <table class="table table-sm">
+    <thead><tr><th>Practice input</th><th>Desired output</th></tr></thead>
+    <tbody>
+      <tr><td>Noise, brightness variation, small shifts only</td><td>No inserted abnormality: target mask is zero</td></tr>
+      <tr><td>Those variations + artificial local patch</td><td>Locate the inserted patch: generated target mask</td></tr>
+    </tbody>
+  </table>
+  <div class="text-small text-muted">Artificial intensity changes · not observed injuries · biological realism unvalidated · same grayscale window within each comparison</div>
+  <script id="simulation-example-data" type="application/json">__SIMULATION_DATA__</script>
+  <script>
+    (() => {
+      const root=document.getElementById('ferret-simulation-explainer');
+      const data=JSON.parse(root.querySelector('#simulation-example-data').textContent);
+      const get=id=>root.querySelector('#'+id);
+      const stages=[
+        {left:'baseline',right:null,title:'1. Start with a baseline-labeled MRI',leftLabel:'Original baseline slice',rightLabel:'',detail:'Real MRI pixels; no artificial local patch added.'},
+        {left:'baseline',right:'variation',title:'2. Add scan-like variation',leftLabel:'Original baseline slice',rightLabel:'Small shift + brightness variation + noise',detail:'No artificial local abnormality in this intermediate image.'},
+        {left:'variation',right:'simulated',title:'3. Add a small artificial dark patch',leftLabel:'Scan-like variation only',rightLabel:'Same image + local darkening',detail:'A soft-edged patch is inserted at a generated location inside the provisional mask.'},
+        {left:'simulated',right:'mask',title:'4. Keep the generated answer mask',leftLabel:'Simulated follow-up supplied to the model',rightLabel:'Known target used for training and evaluation',detail:'White = inserted target region; black = background. The mask is not part of the MRI input.'}
+      ];
+      get('simulation-source').textContent=data.animal+' · stored slice '+data.stored_slice+' · training seed '+data.training_seed+', episode '+data.episode;
+      function draw(index) {
+        const stage=stages[index];
+        get('simulation-stage').textContent=stage.title;
+        get('simulation-left').src=data.images[stage.left];
+        get('simulation-left').alt=stage.leftLabel;
+        get('simulation-left-label').textContent=stage.leftLabel;
+        get('simulation-right-figure').hidden=!stage.right;
+        get('simulation-comparison').classList.toggle('single',!stage.right);
+        if(stage.right){get('simulation-right').src=data.images[stage.right];get('simulation-right').alt=stage.rightLabel;}
+        else get('simulation-right').removeAttribute('src');
+        get('simulation-right-label').textContent=stage.rightLabel;
+        get('simulation-detail').textContent=stage.detail;
+        root.querySelectorAll('button[data-step]').forEach(button=>button.setAttribute('aria-pressed',String(Number(button.dataset.step)===index)));
+      }
+      root.querySelectorAll('button[data-step]').forEach(button=>button.addEventListener('click',()=>draw(Number(button.dataset.step))));
+      draw(2);
+    })();
+  </script>
+</div>

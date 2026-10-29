@@ -1,0 +1,10 @@
+{
+  "python": "/opt/anaconda3/bin/python3.12",
+  "torch": "2.3.0",
+  "numpy": "1.26.4",
+  "scipy": "1.14.1",
+  "pillow": "11.3.0",
+  "sklearn": "1.5.2",
+  "hardware": "Apple M3 Pro, 11 CPU cores, 14 GPU cores, 18 GB unified memory",
+  "scope": "Local synthetic-change feasibility pilot; scanner baseline labels unverified"
+}
